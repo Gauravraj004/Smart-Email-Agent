@@ -1,0 +1,20 @@
+company_name,first_name,email,emails_sent,received_reply,reply_at_stage,archived_at,archive_reason
+Microsoft,Sarah,sarah@microsoft.com,1,False,,2026-03-10T03:02:42.332068,bounced
+Lunchbox,Andrew,andrew@lunchbox.io,1,False,,2026-03-10T03:04:21.858090,bounced
+Cart.com,Jim,jim.jacobsen@cart.com,1,False,,2026-03-10T03:08:45.498471,bounced
+Cart.com,Remington,rtonar@thecannon.com,1,False,,2026-03-10T03:08:47.897180,bounced
+David Protein,Zach,zach.ranen@warburgpincus.com,1,False,,2026-03-11T02:49:31.922927,bounced
+Cart.com,Saheb,saheb.sabharwal@cart.com,2,False,,2026-03-11T03:03:23.393476,bounced
+Saronic,Dino,dmavrookas@vistaequitypartners.com,1,False,,2026-03-11T03:03:52.696467,bounced
+Evorra,Piero,piero.poli@evorra.com,1,False,,2026-03-12T02:56:41.803504,bounced
+Axle Health,Connor,connor@axlehealth.com,1,False,,2026-03-12T02:57:48.031817,bounced
+Blue Onion Labs,Manav,mm@blueonionlabs.com,1,False,,2026-03-12T02:57:55.095490,bounced
+Blue Onion Labs,Manav,manav@blueonionlabs.com,1,False,,2026-03-12T02:57:55.559005,bounced
+Figment,Lorien,lgabel@figmentcapital.io,1,False,,2026-03-12T03:10:11.907580,bounced
+Hippocratic AI,Munjal,munjal@healthiq.com,1,False,,2026-03-12T03:12:30.912170,bounced
+Hippocratic AI,Alex,alex@hippocraticai.com,2,False,,2026-03-13T02:38:32.153754,bounced
+LangChain,Harrison,harrison@langchain.com,1,False,,2026-03-13T02:42:18.492768,bounced
+LangChain,Ankush,ankush@langchain.com,1,False,,2026-03-13T02:42:20.819730,bounced
+1Kosmos,Hemen,hvimadalal@forgepointcap.com,1,False,,2026-03-13T02:44:01.891480,bounced
+Liquidity Group,Yaron,yaron@liquidity-capital.com,1,False,,2026-03-13T03:19:33.790997,bounced
+Siro Technologies,Joe,joe@siro.ai,1,False,,2026-03-13T03:20:53.256168,bounced

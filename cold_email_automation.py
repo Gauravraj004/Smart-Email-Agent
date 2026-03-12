@@ -123,10 +123,26 @@ def auto_clean_csv(csv_file: str) -> bool:
             # Check all possible name columns and pick the one with actual data
             for col in df.columns:
                 if 'first_name' in col or 'contact_name' in col or col == 'first_name':
-                    sample = df[col].dropna().head(3)
-                    if len(sample) > 0 and not sample.iloc[0] == '':
-                        first_name_data = df[col]
-                        break
+                    col_data = df.loc[:, col]
+                    # If this label maps to multiple duplicate columns, col_data will be a DataFrame
+                    if isinstance(col_data, pd.DataFrame):
+                        # Iterate through positional subcolumns and pick the best one
+                        for i in range(col_data.shape[1]):
+                            candidate = col_data.iloc[:, i]
+                            sample = candidate.dropna().head(3)
+                            if not sample.empty and str(sample.iloc[0]).strip() != '':
+                                first_name_data = candidate
+                                break
+                        if first_name_data is not None:
+                            break
+                    else:
+                        # Single Series column
+                        sample = col_data.dropna().head(3)
+                        if not sample.empty:
+                            first_val = sample.iloc[0]
+                            if str(first_val).strip() != '':
+                                first_name_data = col_data
+                                break
         
         if first_name_data is not None:
             final_df['first_name'] = first_name_data
@@ -197,44 +213,84 @@ def auto_clean_csv(csv_file: str) -> bool:
 
 
 # Email templates
+# EMAIL_TEMPLATES = {
+#     1: {
+#         "subject": "Software/AI Engineer | IIT Roorkee | Internship / Full-Time Interest",
+#         "body": """Hi {first_name},
+
+# I'm Parth Saini, a final-year student at IIT Roorkee focused on building robust software and scalable AI systems. I've been following {company_name} and really admire what your team is building. I'd be excited to contribute as a Software/AI Engineer.
+
+# Across internships at Deutsche Bank and others, I've built production-ready systems ranging from distributed server coordination to full-stack AI workflows. My experience includes architecting resilient backends using Spring Boot and ZooKeeper, while engineering ML-driven pipelines and APIs with Python, Node.js, and React. I prioritize clean data flow and predictable system behavior, and I'd be excited to apply this engineering approach at {company_name}.
+
+# If you're open, I'd love to hop on a quick 15-minute chat to see if there's a potential fit. Happy to share my CV as well.
+
+# Warm regards,
+# Parth Saini
+# <a href="https://www.linkedin.com/in/parth-saini-239985266/">LinkedIn</a>"""
+#     },
+#     2: {
+#         "subject": None,  # Reply to same thread
+#         "body": """Hi {first_name},
+
+# Just checking in to see if you had a chance to review this. Is there anything you need from me to move forward?
+
+# If you're not the right contact, could you please point me in the right direction?
+
+# Regards,
+# Parth Saini"""
+#     },
+#     3: {
+#         "subject": None,  # Reply to same thread
+#         "body": """Hello {first_name},
+
+# I just wanted to send one last note in case my previous emails got buried. I'd be truly grateful if you could respond to this email, even a quick "yes" or "no" would mean a lot.
+
+# Thanks so much for your time and consideration.
+
+# Best regards,
+# Parth Saini"""
+#     }
+# }
+
 EMAIL_TEMPLATES = {
     1: {
-        "subject": "Remote Internship / Full-time",
+        "subject": "IIT Roorkee SDE | Built distributed KV store + Deutsche Bank infra | Open to SDE-1/AI roles",
         "body": """Hi {first_name},
 
-I'm Gaurav Raj, a final-year student at IIT Roorkee. I have been following {company_name}'s work, and I see a strong alignment between your engineering goals and my background in scientific automation.
-I am writing to apply for a Remote Internship or Full-time position where I can contribute immediately to your data or engineering team.
+I'm Parth Saini, a final-year CS student at IIT Roorkee (CGPA: 8.86) actively looking for SDE-1 or AI engineer roles.
 
-My Core Qualifications:
-Scientific Python: At NIMS (Japan), I built a Python pipeline to automate TEM image analysis (FFT/Lorentzian fitting), reducing manual processing time by ~90%.
-Production AI Agents: At GreenIntel, I worked on autonomous agents to handle complex user queries and API routing.
+A few things I've shipped:
+- At Deutsche Bank — built a distributed server-coordination layer (leader election, health monitoring, fault tolerance) using Java, Spring Boot & ZooKeeper
+- FlashKV — a multi-threaded in-memory key-value store with custom TCP server, reader-writer locks, thread pool, and AOF persistence (think Redis, from scratch)
+- Full-stack AI systems — recommendation engine with ML pipelines + real-time user interaction tracking
 
-I have attached my resume and would welcome a brief 10-minute chat to discuss how I can contribute.
+Resume attached. I'd love to explore if there's a fit at {company_name} — happy to hop on a quick call.
 
-Best regards,
-Gaurav Raj
-<a href="https://www.linkedin.com/in/gaurav-raj-3ba84b254/">LinkedIn</a> | <a href="https://drive.google.com/file/d/1i7RHTFq9IHaPxQHrY_0jrowvVAkgo0Ot/view?usp=sharing">Resume Link</a>"""
+Best,
+Parth Saini
+LinkedIn: https://www.linkedin.com/in/parth-saini-239985266/
+GitHub: https://github.com/parthsaini2004"""
     },
     2: {
         "subject": None,  # Reply to same thread
         "body": """Hi {first_name},
-Just checking in to see if you had a chance to review this. Is there anything you need from me to move forward?
 
-If you're not the right contact, could you please point me in the right direction?
+Just bumping this up in case it got buried.
 
-Regards,
-Gaurav Raj"""
+If you're not the right person to reach out to, I'd really appreciate a redirect. Otherwise, happy to connect whenever works for you.
+
+Best,
+Parth"""
     },
     3: {
         "subject": None,  # Reply to same thread
-        "body": """Hello {first_name},
+        "body": """Hi {first_name},
 
-I just wanted to send one last note in case my previous emails got buried. I'd be truly grateful if you could respond to this email, even a quick "yes" or "no" would mean a lot.
+Last nudge, I promise. If the timing isn't right or there's no opening, totally understood — no response needed.
 
-Thanks so much for your time and consideration.
+But if there's any interest, I'm actively available and would move fast.
 
-Best regards,
-Gaurav Raj"""
+Parth"""
     }
 }
 
@@ -249,7 +305,7 @@ TIMING_CONFIG = {
 class ColdEmailAutomation:
     """Automated cold email outreach with follow-ups"""
     
-    def __init__(self, excel_file: str, resume_path: str = "Gaurav_Resume.pdf", is_test_mode: bool = False):
+    def __init__(self, excel_file: str, resume_path: str = "parth_resume.pdf", is_test_mode: bool = False):
         """
         Initialize the automation system
         
@@ -1957,7 +2013,7 @@ def main():
     # Configuration - support a mail directory with multiple CSVs (mail/1.csv, 2.csv, ...)
     MAIL_DIR = "mail"
     EXCEL_FILE = None
-    RESUME_PATH = "Gaurav_Resume.pdf"
+    RESUME_PATH = "parth_resume.pdf"
 
     if os.path.isdir(MAIL_DIR):
         # Use the directory as the source; load_prospects will concatenate CSVs inside

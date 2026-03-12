@@ -1,0 +1,62 @@
+company_name,first_name,email,emails_sent,received_reply,reply_at_stage,archived_at,archive_reason
+ABC,Parthzz,parthsaini0405@gmail.com,3,True,3.0,2026-03-09T18:50:31.897685,completed
+Cart.com,Saheb,saheb@cslenergy.com,1,True,1.0,2026-03-10T03:09:10.001738,completed
+Cognida,Uday,uday.chander@cognida.ai,1,True,1.0,2026-03-11T02:48:30.031836,completed
+Contoro Robotics,Youngmok,youngmok@contoro.com,1,True,1.0,2026-03-11T02:48:47.948015,completed
+Neros,Soren,soren@neros.tech,1,True,1.0,2026-03-11T02:49:13.787439,completed
+PERSIST.AI,Karthik,karthik@persist-ai.com,1,True,1.0,2026-03-11T02:49:47.344163,completed
+Dashverse,Soumyadeep,soumyadeep@dashverse.ai,1,True,1.0,2026-03-11T02:50:02.730266,completed
+Observe,Jeremy,jeremy@observeinc.com,2,True,2.0,2026-03-11T03:02:58.743399,completed
+Mercury,Jason,jason@mercury.com,2,True,2.0,2026-03-11T03:19:36.756335,completed
+Figment,Andrew,andrew.cronk@figment.io,3,False,,2026-03-12T03:10:17.871808,completed
+4L Data Intelligence,Clay,cwilemon@4ldata.com,1,True,1.0,2026-03-13T01:03:45.119346,completed
+Polygraf,Yagub,yagub@polygraf.ai,1,True,1.0,2026-03-13T01:04:18.092522,completed
+Mercury,Immad,immad@mercury.com,3,False,,2026-03-13T02:33:16.922056,completed
+Mercury,Jason,jason@mercury.com,3,False,,2026-03-13T02:33:24.893048,completed
+Mercury,Max,m@mercury.com,3,False,,2026-03-13T02:33:33.303737,completed
+Imvax,David,d.andrews@imvax.com,1,True,1.0,2026-03-13T02:45:18.161973,completed
+Ansa Biotechnologies,Jared,jared@ansabio.com,1,True,1.0,2026-03-13T02:45:37.823493,completed
+Mercury,Immad,immad@mercury.com,3,False,,2026-03-13T03:06:17.605049,completed
+Mercury,Max,m@mercury.com,3,False,,2026-03-13T03:06:21.703241,completed
+Substack,Christopher,christopherbest@substack.com,3,False,,2026-03-13T03:06:34.317733,completed
+Substack,Jairaj,jairajsethi@substack.com,3,False,,2026-03-13T03:06:42.796118,completed
+Substack,Hamish,hamishmckenzie@substack.com,3,False,,2026-03-13T03:06:50.884047,completed
+You Technologies,Richard,richard@aixventures.com,3,False,,2026-03-13T03:06:59.998147,completed
+Phantom,Chris,chris@phantom.app,3,False,,2026-03-13T03:07:09.731286,completed
+Lunchbox,James,jwalker@lunchbox.io,3,False,,2026-03-13T03:07:19.147926,completed
+Lunchbox,Nabeel,nabeel@lunchbox.io,3,False,,2026-03-13T03:07:28.159966,completed
+Zolve,Raghunandan,raghu@zolve.com,3,False,,2026-03-13T03:07:35.739839,completed
+SuperOps,Arvind,arvind.parthiban@superops.com,3,False,,2026-03-13T03:07:46.624747,completed
+SuperOps,Jayakumar,jayakumar@superops.com,3,False,,2026-03-13T03:07:55.004746,completed
+Small Door,Florent,florent@smalldoorvet.com,3,False,,2026-03-13T03:08:05.840788,completed
+Small Door,Josh,josh@smalldoorvet.com,3,False,,2026-03-13T03:08:16.492379,completed
+CompanyCam,Luke,luke@companycam.com,3,False,,2026-03-13T03:08:26.117457,completed
+Esusu,Samir,samir@esusu.org,3,False,,2026-03-13T03:08:34.342511,completed
+Esusu,Wemimo,abbey@esusu.org,3,False,,2026-03-13T03:08:43.824595,completed
+Strand Therapeutics,Tasuku,tasuku.kitada@strandtx.com,3,False,,2026-03-13T03:08:52.984892,completed
+Airalo,Rishi,rishi.gupta@airalo.com,3,False,,2026-03-13T03:09:00.539877,completed
+Monarch,Val,va@pioneerfund.vc,3,False,,2026-03-13T03:09:11.069774,completed
+Monarch,Val,val@monarchmoney.com,3,False,,2026-03-13T03:09:18.241243,completed
+Monarch,Jon,jon@monarchmoney.com,3,False,,2026-03-13T03:09:28.171152,completed
+Monarch,Ozzie,ozzie@monarchmoney.com,3,False,,2026-03-13T03:09:36.741358,completed
+Bicycle Health,Ankit,ankit@bicyclehealth.com,3,False,,2026-03-13T03:09:44.351926,completed
+Paytient,Brian,brian@paytient.com,3,False,,2026-03-13T03:09:53.772180,completed
+Paytient,Brian,brian@paytient.co,3,False,,2026-03-13T03:10:02.995558,completed
+Paytient,Daniel,daniel@paytient.com,3,False,,2026-03-13T03:10:12.920846,completed
+Paytient,Daniel,daniel@paytient.co,3,False,,2026-03-13T03:10:20.549223,completed
+Observe,Jacob,jacob@observeinc.com,3,False,,2026-03-13T03:10:27.666660,completed
+Observe,Jonathan,jonathan@observeinc.com,3,False,,2026-03-13T03:10:37.335583,completed
+Tailscale,Avery,avery@tailscale.com,3,False,,2026-03-13T03:10:46.508311,completed
+Clay,Kareem,kareem@clay.com,3,False,,2026-03-13T03:10:54.599774,completed
+Clay,Nicolae,nicolae@clay.com,3,False,,2026-03-13T03:11:04.017614,completed
+Cardless,Scott,scott@cardless.com,3,False,,2026-03-13T03:11:11.601464,completed
+Cardless,Michael,michael@cardless.com,3,False,,2026-03-13T03:11:21.350608,completed
+Cart.com,Omair,omair@cart.com,3,False,,2026-03-13T03:11:29.720219,completed
+Cart.com,Remington,remington@cart.com,3,False,,2026-03-13T03:11:37.194905,completed
+Nourish,Aidan,aidan.dewar@usenourish.com,3,False,,2026-03-13T03:11:45.390228,completed
+Nourish,Stephanie,stephanie.liu@usenourish.com,3,False,,2026-03-13T03:11:56.569025,completed
+Nourish,Sam,sam.perkins@usenourish.com,3,False,,2026-03-13T03:12:05.767476,completed
+Branch,Atif,atif@branchapp.com,3,False,,2026-03-13T03:12:13.651970,completed
+Jiko,Stephane,stephane@jiko.com,3,False,,2026-03-13T03:12:23.480470,completed
+Trust and Will,Cody,cody@trustandwill.com,3,False,,2026-03-13T03:12:32.289230,completed
+Trust and Will,Daniel,daniel@trustandwill.com,3,False,,2026-03-13T03:12:39.825144,completed

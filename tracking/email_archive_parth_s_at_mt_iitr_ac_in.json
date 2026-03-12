@@ -1,0 +1,2492 @@
+{
+  "parthsaini0405@gmail.com": {
+    "company_name": "ABC",
+    "first_name": "Parthzz",
+    "email": "parthsaini0405@gmail.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "1845c875592663d0",
+        "thread_id": "1845c86a3dfa0628",
+        "email_message_id": "<CAGb3p8oApW9rJOyBwQnQupJpxsMaAbNK+Jjk6RgFXY4Z2himGQ@mail.gmail.com>",
+        "sent_date": "2022-11-09T18:44:43",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "1945026e98222107",
+        "thread_id": "1945024ebc047d37",
+        "email_message_id": "<CAGb3p8rSwO4O4YsGiS=Mv67=C2i_a2B6bGXvQo-mB4LzgThaTw@mail.gmail.com>",
+        "sent_date": "2025-01-10T17:48:33",
+        "reconstructed": true
+      },
+      {
+        "stage": 3,
+        "message_id": "196ba7ad48eb519b",
+        "thread_id": "196ba77b6741b80b",
+        "email_message_id": "<CAGb3p8pYwix--EX+opfTOzy=jG6TMFpB+HQzVNLY5fnJch-Ayg@mail.gmail.com>",
+        "sent_date": "2025-05-10T19:25:34",
+        "reconstructed": true
+      }
+    ],
+    "received_reply": true,
+    "reply_at_stage": 3,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-09T18:50:31.892707",
+    "_source_csv": "2.csv",
+    "_archived_at": "2026-03-09T18:50:31.897685",
+    "_archive_reason": "completed"
+  },
+  "sarah@microsoft.com": {
+    "company_name": "Microsoft",
+    "first_name": "Sarah",
+    "email": "sarah@microsoft.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19cd2c0c5640e0df",
+        "thread_id": "19cd2c0c5640e0df",
+        "email_message_id": "<CAGb3p8qt_Krwno67hmkwOdzeA-sRWhe2t_2MdJuGAnwX0qVLJw@mail.gmail.com>",
+        "sent_date": "2026-03-09T18:49:35.200235"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "_source_csv": "1.csv",
+    "bounced": true,
+    "bounce_detected_date": "2026-03-10T03:02:42.327381",
+    "_archived_at": "2026-03-10T03:02:42.332068",
+    "_archive_reason": "bounced"
+  },
+  "andrew@lunchbox.io": {
+    "company_name": "Lunchbox",
+    "first_name": "Andrew",
+    "email": "andrew@lunchbox.io",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b28080662fa855",
+        "thread_id": "19b28080662fa855",
+        "email_message_id": "<CAGb3p8q2oBjerdLGMFmzDLqD4ttYmk6ODnt3h8LfaM9RTCjc=g@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:09:33",
+        "reconstructed": true
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:04:21.431457",
+    "_source_csv": "3.csv",
+    "bounced": true,
+    "bounce_detected_date": "2026-03-10T03:04:21.854355",
+    "_archived_at": "2026-03-10T03:04:21.858090",
+    "_archive_reason": "bounced"
+  },
+  "jim.jacobsen@cart.com": {
+    "company_name": "Cart.com",
+    "first_name": "Jim",
+    "email": "jim.jacobsen@cart.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2808b78245340",
+        "thread_id": "19b2808b78245340",
+        "email_message_id": "<CAGb3p8qNdd9-dn_PJobssLwDEaSiCeHxXUZmNiziupwZQHUVzg@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:10:18",
+        "reconstructed": true
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:08:45.057786",
+    "_source_csv": "3.csv",
+    "bounced": true,
+    "bounce_detected_date": "2026-03-10T03:08:45.493666",
+    "_archived_at": "2026-03-10T03:08:45.498471",
+    "_archive_reason": "bounced"
+  },
+  "rtonar@thecannon.com": {
+    "company_name": "Cart.com",
+    "first_name": "Remington",
+    "email": "rtonar@thecannon.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b28688db8f1a4e",
+        "thread_id": "19b28688db8f1a4e",
+        "email_message_id": "<CAGb3p8o+rjE4oNe11o6+EQfrF_cgtG3rxV+Z-hjuX58_RcRMUQ@mail.gmail.com>",
+        "sent_date": "2025-12-16T23:54:58",
+        "reconstructed": true
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:08:47.466999",
+    "_source_csv": "3.csv",
+    "bounced": true,
+    "bounce_detected_date": "2026-03-10T03:08:47.892177",
+    "_archived_at": "2026-03-10T03:08:47.897180",
+    "_archive_reason": "bounced"
+  },
+  "saheb@cslenergy.com": {
+    "company_name": "Cart.com",
+    "first_name": "Saheb",
+    "email": "saheb@cslenergy.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b28689b7b51bd5",
+        "thread_id": "19b28689b7b51bd5",
+        "email_message_id": "<CAGb3p8qR8XvYNkz0ksrNaAVnJFZGgMxFem0JO0KiagRhDLipTw@mail.gmail.com>",
+        "sent_date": "2025-12-16T23:55:02",
+        "reconstructed": true
+      }
+    ],
+    "received_reply": true,
+    "reply_at_stage": 1,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:09:09.995168",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-10T03:09:10.001738",
+    "_archive_reason": "completed"
+  },
+  "uday.chander@cognida.ai": {
+    "company_name": "Cognida",
+    "first_name": "Uday",
+    "email": "uday.chander@cognida.ai",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19cd48fb695699b4",
+        "thread_id": "19cd48fb695699b4",
+        "email_message_id": "<CAGb3p8rJ3ON-pxFqG-GvMgjfm7aM9Z3QvmvWUQGKfkyPsg11pA@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:15:14.773894"
+      }
+    ],
+    "received_reply": true,
+    "reply_at_stage": 1,
+    "_source_csv": "1.csv",
+    "reply_detected_date": "2026-03-11T02:48:30.022868",
+    "_archived_at": "2026-03-11T02:48:30.031836",
+    "_archive_reason": "completed"
+  },
+  "youngmok@contoro.com": {
+    "company_name": "Contoro Robotics",
+    "first_name": "Youngmok",
+    "email": "youngmok@contoro.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19cd490349eb90d1",
+        "thread_id": "19cd490349eb90d1",
+        "email_message_id": "<CAGb3p8oHDQaDvgr8vUFsHk8KAj3+jvdBMbcucUP7pPc_--tTVQ@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:15:47.140862"
+      }
+    ],
+    "received_reply": true,
+    "reply_at_stage": 1,
+    "_source_csv": "1.csv",
+    "reply_detected_date": "2026-03-11T02:48:47.940135",
+    "_archived_at": "2026-03-11T02:48:47.948015",
+    "_archive_reason": "completed"
+  },
+  "soren@neros.tech": {
+    "company_name": "Neros",
+    "first_name": "Soren",
+    "email": "soren@neros.tech",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19cd491260c0b862",
+        "thread_id": "19cd491260c0b862",
+        "email_message_id": "<CAGb3p8rCETfP4ykpKsJ5ghzs4UPJEL1kTDZLTe=8x=bnt+ORvg@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:16:48.950623"
+      }
+    ],
+    "received_reply": true,
+    "reply_at_stage": 1,
+    "_source_csv": "1.csv",
+    "reply_detected_date": "2026-03-11T02:49:13.779968",
+    "_archived_at": "2026-03-11T02:49:13.787439",
+    "_archive_reason": "completed"
+  },
+  "zach.ranen@warburgpincus.com": {
+    "company_name": "David Protein",
+    "first_name": "Zach",
+    "email": "zach.ranen@warburgpincus.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19cd491d9434a23c",
+        "thread_id": "19cd491d9434a23c",
+        "email_message_id": "<CAGb3p8p1rD4uWd1KZeNKcb_mAamALwLWMHT0dudeqN9Xj+oNSg@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:17:34.364723"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "_source_csv": "1.csv",
+    "bounced": true,
+    "bounce_detected_date": "2026-03-11T02:49:31.915794",
+    "_archived_at": "2026-03-11T02:49:31.922927",
+    "_archive_reason": "bounced"
+  },
+  "karthik@persist-ai.com": {
+    "company_name": "PERSIST.AI",
+    "first_name": "Karthik",
+    "email": "karthik@persist-ai.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19cd4925b3ead36b",
+        "thread_id": "19cd4925b3ead36b",
+        "email_message_id": "<CAGb3p8qXOgjRxd-rt6z8MFzXuLxosU3uEgut9rQgzDKLQfEqyw@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:18:08.041609"
+      }
+    ],
+    "received_reply": true,
+    "reply_at_stage": 1,
+    "_source_csv": "1.csv",
+    "reply_detected_date": "2026-03-11T02:49:47.338848",
+    "_archived_at": "2026-03-11T02:49:47.344163",
+    "_archive_reason": "completed"
+  },
+  "soumyadeep@dashverse.ai": {
+    "company_name": "Dashverse",
+    "first_name": "Soumyadeep",
+    "email": "soumyadeep@dashverse.ai",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19cd492f02a673d5",
+        "thread_id": "19cd492f02a673d5",
+        "email_message_id": "<CAGb3p8pcGZgksAg2xh6-3seH68Ou=kba+tLu_is=4yq1E7dtDw@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:18:46.404107"
+      }
+    ],
+    "received_reply": true,
+    "reply_at_stage": 1,
+    "_source_csv": "1.csv",
+    "reply_detected_date": "2026-03-11T02:50:02.720850",
+    "_archived_at": "2026-03-11T02:50:02.730266",
+    "_archive_reason": "completed"
+  },
+  "jeremy@observeinc.com": {
+    "company_name": "Observe",
+    "first_name": "Jeremy",
+    "email": "jeremy@observeinc.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b28088b65b891f",
+        "thread_id": "19b28088b65b891f",
+        "email_message_id": "<CAGb3p8rFzNgLeTt3d+fQz3W9jHF89T6=37GeVgj1BEFs3cvn-A@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:10:06",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd48888de6c9bc",
+        "thread_id": "19b28088b65b891f",
+        "email_message_id": "<CAGb3p8rFzNgLeTt3d+fQz3W9jHF89T6=37GeVgj1BEFs3cvn-A@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:07:24.362282"
+      }
+    ],
+    "received_reply": true,
+    "reply_at_stage": 2,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:07:20.119816",
+    "_source_csv": "3.csv",
+    "reply_detected_date": "2026-03-11T03:02:58.728428",
+    "_archived_at": "2026-03-11T03:02:58.743399",
+    "_archive_reason": "completed"
+  },
+  "saheb.sabharwal@cart.com": {
+    "company_name": "Cart.com",
+    "first_name": "Saheb",
+    "email": "saheb.sabharwal@cart.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2868981fbed14",
+        "thread_id": "19b2868981fbed14",
+        "email_message_id": "<CAGb3p8pTkgvYXYr4ZqUZJah4T3KdUAqjjikQ=6mVQZi0YZ4A+g@mail.gmail.com>",
+        "sent_date": "2025-12-16T23:55:02",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd48a136447ea4",
+        "thread_id": "19b2868981fbed14",
+        "email_message_id": "<CAGb3p8pTkgvYXYr4ZqUZJah4T3KdUAqjjikQ=6mVQZi0YZ4A+g@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:09:05.284485"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:09:01.394650",
+    "_source_csv": "3.csv",
+    "bounced": true,
+    "bounce_detected_date": "2026-03-11T03:03:23.388778",
+    "_archived_at": "2026-03-11T03:03:23.393476",
+    "_archive_reason": "bounced"
+  },
+  "dmavrookas@vistaequitypartners.com": {
+    "company_name": "Saronic",
+    "first_name": "Dino",
+    "email": "dmavrookas@vistaequitypartners.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b28689fb37f5a8",
+        "thread_id": "19b28689fb37f5a8",
+        "email_message_id": "<CAGb3p8puUDpSw2aOUWJ9zzJW1LFSLvsvoHYDAD_NRdbMpyYZVw@mail.gmail.com>",
+        "sent_date": "2025-12-16T23:55:03",
+        "reconstructed": true
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-11T03:03:52.327271",
+    "_source_csv": "3.csv",
+    "bounced": true,
+    "bounce_detected_date": "2026-03-11T03:03:52.686605",
+    "_archived_at": "2026-03-11T03:03:52.696467",
+    "_archive_reason": "bounced"
+  },
+  "jason@mercury.com": [
+    {
+      "company_name": "Mercury",
+      "first_name": "Jason",
+      "email": "jason@mercury.com",
+      "emails_sent": [
+        {
+          "stage": 1,
+          "message_id": "19b2807c995bec0f",
+          "thread_id": "19b2807c995bec0f",
+          "email_message_id": "<CAGb3p8oHQCSY9+hz3ViuyFWpRvOnH78ruO5yCsVz2q2r2B9pHg@mail.gmail.com>",
+          "sent_date": "2025-12-16T22:09:17",
+          "reconstructed": true
+        },
+        {
+          "stage": 2,
+          "message_id": "19cd2c1578551be1",
+          "thread_id": "19b2807c995bec0f",
+          "email_message_id": "<CAGb3p8oHQCSY9+hz3ViuyFWpRvOnH78ruO5yCsVz2q2r2B9pHg@mail.gmail.com>",
+          "sent_date": "2026-03-09T18:50:12.517658"
+        }
+      ],
+      "received_reply": true,
+      "reply_at_stage": 2,
+      "reconstructed_from_gmail": true,
+      "reconstruction_date": "2026-03-09T18:50:08.031700",
+      "_source_csv": "2.csv",
+      "reply_detected_date": "2026-03-11T03:19:36.745433",
+      "_archived_at": "2026-03-11T03:19:36.756335",
+      "_archive_reason": "completed"
+    },
+    {
+      "company_name": "Mercury",
+      "first_name": "Jason",
+      "email": "jason@mercury.com",
+      "emails_sent": [
+        {
+          "stage": 1,
+          "message_id": "19b2807c995bec0f",
+          "thread_id": "19b2807c995bec0f",
+          "email_message_id": "<CAGb3p8oHQCSY9+hz3ViuyFWpRvOnH78ruO5yCsVz2q2r2B9pHg@mail.gmail.com>",
+          "sent_date": "2025-12-16T22:09:17",
+          "reconstructed": true
+        },
+        {
+          "stage": 2,
+          "message_id": "19cd2c1578551be1",
+          "thread_id": "19b2807c995bec0f",
+          "email_message_id": "<CAGb3p8oMiQTWHuEwF3-7BEzK4-yHr=5_vTbxEDgRx9htjkbsrQ@mail.gmail.com>",
+          "sent_date": "2026-03-09T18:50:11",
+          "reconstructed": true
+        },
+        {
+          "stage": 3,
+          "message_id": "19ce3dc7e2ba3730",
+          "thread_id": "19b2807c995bec0f",
+          "email_message_id": "<CAGb3p8oHQCSY9+hz3ViuyFWpRvOnH78ruO5yCsVz2q2r2B9pHg@mail.gmail.com>",
+          "sent_date": "2026-03-13T02:33:24.879197"
+        }
+      ],
+      "received_reply": false,
+      "reply_at_stage": null,
+      "reconstructed_from_gmail": true,
+      "reconstruction_date": "2026-03-12T03:05:19.070448",
+      "_source_csv": "3.csv",
+      "_archived_at": "2026-03-13T02:33:24.893048",
+      "_archive_reason": "completed"
+    }
+  ],
+  "piero.poli@evorra.com": {
+    "company_name": "Evorra",
+    "first_name": "Piero",
+    "email": "piero.poli@evorra.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19cd9a11b339fb22",
+        "thread_id": "19cd9a11b339fb22",
+        "email_message_id": "<CAGb3p8rh=7pn7yPgjKSZsC+fdDk+SojuMrYWyLBaeSJZi_+GiQ@mail.gmail.com>",
+        "sent_date": "2026-03-11T02:52:20.327875"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "_source_csv": "1.csv",
+    "bounced": true,
+    "bounce_detected_date": "2026-03-12T02:56:41.789450",
+    "_archived_at": "2026-03-12T02:56:41.803504",
+    "_archive_reason": "bounced"
+  },
+  "connor@axlehealth.com": {
+    "company_name": "Axle Health",
+    "first_name": "Connor",
+    "email": "connor@axlehealth.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19cd9a36825642a5",
+        "thread_id": "19cd9a36825642a5",
+        "email_message_id": "<CAGb3p8pAiFRi_+q4BTf=BVjPVtw4temOpXUf=S+-bfbLT2+tAg@mail.gmail.com>",
+        "sent_date": "2026-03-11T02:54:51.433503"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "_source_csv": "1.csv",
+    "bounced": true,
+    "bounce_detected_date": "2026-03-12T02:57:48.025931",
+    "_archived_at": "2026-03-12T02:57:48.031817",
+    "_archive_reason": "bounced"
+  },
+  "mm@blueonionlabs.com": {
+    "company_name": "Blue Onion Labs",
+    "first_name": "Manav",
+    "email": "mm@blueonionlabs.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19cd9a3bdb7d03c1",
+        "thread_id": "19cd9a3bdb7d03c1",
+        "email_message_id": "<CAGb3p8rwWcfFKj-AFuiJO+QShVwb-pvKbM7CKGDuRHjpT6sEzA@mail.gmail.com>",
+        "sent_date": "2026-03-11T02:55:13.011884"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "_source_csv": "1.csv",
+    "bounced": true,
+    "bounce_detected_date": "2026-03-12T02:57:55.085104",
+    "_archived_at": "2026-03-12T02:57:55.095490",
+    "_archive_reason": "bounced"
+  },
+  "manav@blueonionlabs.com": {
+    "company_name": "Blue Onion Labs",
+    "first_name": "Manav",
+    "email": "manav@blueonionlabs.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19cd9a3d76ff497f",
+        "thread_id": "19cd9a3d76ff497f",
+        "email_message_id": "<CAGb3p8pVmSKZNMxt_Qg9UxUtC_kX9S8+0jPHMGZ2ZCtWHY2ToQ@mail.gmail.com>",
+        "sent_date": "2026-03-11T02:55:19.704477"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "_source_csv": "1.csv",
+    "bounced": true,
+    "bounce_detected_date": "2026-03-12T02:57:55.549357",
+    "_archived_at": "2026-03-12T02:57:55.559005",
+    "_archive_reason": "bounced"
+  },
+  "lgabel@figmentcapital.io": {
+    "company_name": "Figment",
+    "first_name": "Lorien",
+    "email": "lgabel@figmentcapital.io",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2868b5fa8019f",
+        "thread_id": "19b2868b5fa8019f",
+        "email_message_id": "<CAGb3p8rDbU7QP1yPX1ErJ89Do3DVf-8d5P1KENg1ocHyCKmOug@mail.gmail.com>",
+        "sent_date": "2025-12-16T23:55:09",
+        "reconstructed": true
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-12T03:10:11.468981",
+    "_source_csv": "3.csv",
+    "bounced": true,
+    "bounce_detected_date": "2026-03-12T03:10:11.897015",
+    "_archived_at": "2026-03-12T03:10:11.907580",
+    "_archive_reason": "bounced"
+  },
+  "andrew.cronk@figment.io": {
+    "company_name": "Figment",
+    "first_name": "Andrew",
+    "email": "andrew.cronk@figment.io",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b28098b1b1e2ce",
+        "thread_id": "19b28098b1b1e2ce",
+        "email_message_id": "<CAGb3p8o-5m_L_oY+7aAcJCTUBoVN5-7H2TAdhOsUKgKfOovu0w@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:11:12",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19b2809919329e8f",
+        "thread_id": "19b2809919329e8f",
+        "email_message_id": "<CAGb3p8r+TW1w7z7-wASdBNF_B3N+cfUxuOnyFWS+TpDf0cdM-Q@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:11:13",
+        "reconstructed": true
+      },
+      {
+        "stage": 3,
+        "message_id": "19cded7e7ff7a3c4",
+        "thread_id": "19b28098b1b1e2ce",
+        "email_message_id": "<CAGb3p8o-5m_L_oY+7aAcJCTUBoVN5-7H2TAdhOsUKgKfOovu0w@mail.gmail.com>",
+        "sent_date": "2026-03-12T03:10:17.860827"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-12T03:10:13.883341",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-12T03:10:17.871808",
+    "_archive_reason": "completed"
+  },
+  "munjal@healthiq.com": {
+    "company_name": "Hippocratic AI",
+    "first_name": "Munjal",
+    "email": "munjal@healthiq.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2868d908fbcac",
+        "thread_id": "19b2868d908fbcac",
+        "email_message_id": "<CAGb3p8pRiunB88nRAj==SQwF0QvwxaYhht9DkNZYbzjhmDU9nw@mail.gmail.com>",
+        "sent_date": "2025-12-16T23:55:18",
+        "reconstructed": true
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-12T03:12:30.473160",
+    "_source_csv": "3.csv",
+    "bounced": true,
+    "bounce_detected_date": "2026-03-12T03:12:30.900169",
+    "_archived_at": "2026-03-12T03:12:30.912170",
+    "_archive_reason": "bounced"
+  },
+  "cwilemon@4ldata.com": {
+    "company_name": "4L Data Intelligence",
+    "first_name": "Clay",
+    "email": "cwilemon@4ldata.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19cdecf81bdd3f67",
+        "thread_id": "19cdecf81bdd3f67",
+        "email_message_id": "<CAGb3p8qnf0hmDm-UJuKd+PvnJkL5neP_zCdVsXws3Eg04cavwg@mail.gmail.com>",
+        "sent_date": "2026-03-12T03:01:07.305569"
+      }
+    ],
+    "received_reply": true,
+    "reply_at_stage": 1,
+    "_source_csv": "1.csv",
+    "reply_detected_date": "2026-03-13T01:03:45.104736",
+    "_archived_at": "2026-03-13T01:03:45.119346",
+    "_archive_reason": "completed"
+  },
+  "yagub@polygraf.ai": {
+    "company_name": "Polygraf",
+    "first_name": "Yagub",
+    "email": "yagub@polygraf.ai",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19cded0b85f6ac0e",
+        "thread_id": "19cded0b85f6ac0e",
+        "email_message_id": "<CAGb3p8qebvG1vSxZbwTBYzVrcJJK4XR60Hgw+sPOyendz=Argw@mail.gmail.com>",
+        "sent_date": "2026-03-12T03:02:27.571536"
+      }
+    ],
+    "received_reply": true,
+    "reply_at_stage": 1,
+    "_source_csv": "1.csv",
+    "reply_detected_date": "2026-03-13T01:04:18.078006",
+    "_archived_at": "2026-03-13T01:04:18.092522",
+    "_archive_reason": "completed"
+  },
+  "immad@mercury.com": [
+    {
+      "company_name": "Mercury",
+      "first_name": "Immad",
+      "email": "immad@mercury.com",
+      "emails_sent": [
+        {
+          "stage": 1,
+          "message_id": "19b2807c7c71d30d",
+          "thread_id": "19b2807c7c71d30d",
+          "email_message_id": "<CAGb3p8qSPEYcWHTft=umq8bhhkVLJY+TF85jfg7dc_ZMtXnkDA@mail.gmail.com>",
+          "sent_date": "2025-12-16T22:09:17",
+          "reconstructed": true
+        },
+        {
+          "stage": 2,
+          "message_id": "19cd2c132306ded9",
+          "thread_id": "19b2807c7c71d30d",
+          "email_message_id": "<CAGb3p8qSPEYcWHTft=umq8bhhkVLJY+TF85jfg7dc_ZMtXnkDA@mail.gmail.com>",
+          "sent_date": "2026-03-09T18:50:03.184032"
+        },
+        {
+          "stage": 3,
+          "message_id": "19ce3dc5fab7aee3",
+          "thread_id": "19b2807c7c71d30d",
+          "email_message_id": "<CAGb3p8qSPEYcWHTft=umq8bhhkVLJY+TF85jfg7dc_ZMtXnkDA@mail.gmail.com>",
+          "sent_date": "2026-03-13T02:33:16.906690"
+        }
+      ],
+      "received_reply": false,
+      "reply_at_stage": null,
+      "reconstructed_from_gmail": true,
+      "reconstruction_date": "2026-03-09T18:49:58.949964",
+      "_source_csv": "2.csv",
+      "_archived_at": "2026-03-13T02:33:16.922056",
+      "_archive_reason": "completed"
+    },
+    {
+      "company_name": "Mercury",
+      "first_name": "Immad",
+      "email": "immad@mercury.com",
+      "emails_sent": [
+        {
+          "stage": 1,
+          "message_id": "19b2807c7c71d30d",
+          "thread_id": "19b2807c7c71d30d",
+          "email_message_id": "<CAGb3p8qSPEYcWHTft=umq8bhhkVLJY+TF85jfg7dc_ZMtXnkDA@mail.gmail.com>",
+          "sent_date": "2025-12-16T22:09:17",
+          "reconstructed": true
+        },
+        {
+          "stage": 2,
+          "message_id": "19cd2c132306ded9",
+          "thread_id": "19b2807c7c71d30d",
+          "email_message_id": "<CAGb3p8rYkLBnk8FDSo=hzH7fW3zkUxTs9ivvnJpRSY4DvYvRDw@mail.gmail.com>",
+          "sent_date": "2026-03-09T18:50:02",
+          "reconstructed": true
+        },
+        {
+          "stage": 3,
+          "message_id": "19ce3dc5fab7aee3",
+          "thread_id": "19b2807c7c71d30d",
+          "email_message_id": "<CAGb3p8ozXkicrjOcc36b5TF9Z2CJsuMMmUT51TR5DEmjBpF8YA@mail.gmail.com>",
+          "sent_date": "2026-03-13T02:33:16",
+          "reconstructed": true
+        }
+      ],
+      "received_reply": false,
+      "reply_at_stage": null,
+      "reconstructed_from_gmail": true,
+      "reconstruction_date": "2026-03-13T03:06:17.590991",
+      "_source_csv": "3.csv",
+      "_archived_at": "2026-03-13T03:06:17.605049",
+      "_archive_reason": "completed"
+    }
+  ],
+  "m@mercury.com": [
+    {
+      "company_name": "Mercury",
+      "first_name": "Max",
+      "email": "m@mercury.com",
+      "emails_sent": [
+        {
+          "stage": 1,
+          "message_id": "19b2807cace5c143",
+          "thread_id": "19b2807cace5c143",
+          "email_message_id": "<CAGb3p8qscW1FfPD5sw66-6oK6-LMEjPOML6XPmnVusQt5zPcKA@mail.gmail.com>",
+          "sent_date": "2025-12-16T22:09:18",
+          "reconstructed": true
+        },
+        {
+          "stage": 2,
+          "message_id": "19cd2c17f79172df",
+          "thread_id": "19b2807cace5c143",
+          "email_message_id": "<CAGb3p8qscW1FfPD5sw66-6oK6-LMEjPOML6XPmnVusQt5zPcKA@mail.gmail.com>",
+          "sent_date": "2026-03-09T18:50:22.573766"
+        },
+        {
+          "stage": 3,
+          "message_id": "19ce3dc9e6f7ab4d",
+          "thread_id": "19b2807cace5c143",
+          "email_message_id": "<CAGb3p8qscW1FfPD5sw66-6oK6-LMEjPOML6XPmnVusQt5zPcKA@mail.gmail.com>",
+          "sent_date": "2026-03-13T02:33:33.291456"
+        }
+      ],
+      "received_reply": false,
+      "reply_at_stage": null,
+      "reconstructed_from_gmail": true,
+      "reconstruction_date": "2026-03-09T18:50:18.580868",
+      "_source_csv": "2.csv",
+      "_archived_at": "2026-03-13T02:33:33.303737",
+      "_archive_reason": "completed"
+    },
+    {
+      "company_name": "Mercury",
+      "first_name": "Max",
+      "email": "m@mercury.com",
+      "emails_sent": [
+        {
+          "stage": 1,
+          "message_id": "19b2807cace5c143",
+          "thread_id": "19b2807cace5c143",
+          "email_message_id": "<CAGb3p8qscW1FfPD5sw66-6oK6-LMEjPOML6XPmnVusQt5zPcKA@mail.gmail.com>",
+          "sent_date": "2025-12-16T22:09:18",
+          "reconstructed": true
+        },
+        {
+          "stage": 2,
+          "message_id": "19cd2c17f79172df",
+          "thread_id": "19b2807cace5c143",
+          "email_message_id": "<CAGb3p8pL760_TcgYCu7pUfR+7vQftovjeMFk4Tg29fbdQ562YA@mail.gmail.com>",
+          "sent_date": "2026-03-09T18:50:22",
+          "reconstructed": true
+        },
+        {
+          "stage": 3,
+          "message_id": "19ce3dc9e6f7ab4d",
+          "thread_id": "19b2807cace5c143",
+          "email_message_id": "<CAGb3p8p9Ye3xZPd066PXSY7_wFoJEpGtOr1o8CoYKQB=ZM=bRQ@mail.gmail.com>",
+          "sent_date": "2026-03-13T02:33:32",
+          "reconstructed": true
+        }
+      ],
+      "received_reply": false,
+      "reply_at_stage": null,
+      "reconstructed_from_gmail": true,
+      "reconstruction_date": "2026-03-13T03:06:21.686082",
+      "_source_csv": "3.csv",
+      "_archived_at": "2026-03-13T03:06:21.703241",
+      "_archive_reason": "completed"
+    }
+  ],
+  "alex@hippocraticai.com": {
+    "company_name": "Hippocratic AI",
+    "first_name": "Alex",
+    "email": "alex@hippocraticai.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2809d7df6c4c9",
+        "thread_id": "19b2809d7df6c4c9",
+        "email_message_id": "<CAGb3p8rVKMkSUdDOb1MeA6n1aQvSnjvA2pauyDmeqFHQbU5UfQ@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:11:31",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cdeda8f7b15273",
+        "thread_id": "19b2809d7df6c4c9",
+        "email_message_id": "<CAGb3p8rVKMkSUdDOb1MeA6n1aQvSnjvA2pauyDmeqFHQbU5UfQ@mail.gmail.com>",
+        "sent_date": "2026-03-12T03:13:11.752558"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-12T03:13:07.758663",
+    "_source_csv": "3.csv",
+    "bounced": true,
+    "bounce_detected_date": "2026-03-13T02:38:32.138101",
+    "_archived_at": "2026-03-13T02:38:32.153754",
+    "_archive_reason": "bounced"
+  },
+  "harrison@langchain.com": {
+    "company_name": "LangChain",
+    "first_name": "Harrison",
+    "email": "harrison@langchain.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b280ac4535fab8",
+        "thread_id": "19b280ac4535fab8",
+        "email_message_id": "<CAGb3p8qbAi6Ybhk+W4M6WoUtOtGyHP_6K-0bpba2NjPGq5wY1Q@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:12:32",
+        "reconstructed": true
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-13T02:42:18.059694",
+    "_source_csv": "3.csv",
+    "bounced": true,
+    "bounce_detected_date": "2026-03-13T02:42:18.479912",
+    "_archived_at": "2026-03-13T02:42:18.492768",
+    "_archive_reason": "bounced"
+  },
+  "ankush@langchain.com": {
+    "company_name": "LangChain",
+    "first_name": "Ankush",
+    "email": "ankush@langchain.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2868ea65c3f93",
+        "thread_id": "19b2868ea65c3f93",
+        "email_message_id": "<CAGb3p8qhJhkHByt0jY_5FBDz1EYCm6wF8tpUR5-q-RZX9_7bBQ@mail.gmail.com>",
+        "sent_date": "2025-12-16T23:55:22",
+        "reconstructed": true
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-13T02:42:20.419107",
+    "_source_csv": "3.csv",
+    "bounced": true,
+    "bounce_detected_date": "2026-03-13T02:42:20.809013",
+    "_archived_at": "2026-03-13T02:42:20.819730",
+    "_archive_reason": "bounced"
+  },
+  "hvimadalal@forgepointcap.com": {
+    "company_name": "1Kosmos",
+    "first_name": "Hemen",
+    "email": "hvimadalal@forgepointcap.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2868ff1d17f98",
+        "thread_id": "19b2868ff1d17f98",
+        "email_message_id": "<CAGb3p8q7TotNr4+3F-omJDEE-EgS6HWUJvGvrhOFHE5KUyDuBg@mail.gmail.com>",
+        "sent_date": "2025-12-16T23:55:27",
+        "reconstructed": true
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-13T02:44:01.452418",
+    "_source_csv": "3.csv",
+    "bounced": true,
+    "bounce_detected_date": "2026-03-13T02:44:01.876362",
+    "_archived_at": "2026-03-13T02:44:01.891480",
+    "_archive_reason": "bounced"
+  },
+  "d.andrews@imvax.com": {
+    "company_name": "Imvax",
+    "first_name": "David",
+    "email": "d.andrews@imvax.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b280b1488c39ee",
+        "thread_id": "19b280b1488c39ee",
+        "email_message_id": "<CAGb3p8oFVP-3KALzAsuxubY+6D1rdsS+wGuTe9Jz2ODM22eYcQ@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:12:53",
+        "reconstructed": true
+      }
+    ],
+    "received_reply": true,
+    "reply_at_stage": 1,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-13T02:45:18.148411",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T02:45:18.161973",
+    "_archive_reason": "completed"
+  },
+  "jared@ansabio.com": {
+    "company_name": "Ansa Biotechnologies",
+    "first_name": "Jared",
+    "email": "jared@ansabio.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b280b2c68c1038",
+        "thread_id": "19b280b2c68c1038",
+        "email_message_id": "<CAGb3p8rAkOtutjLnH2Wi9Y+mHRymfe-55jy5xnL-31_4xHi0jQ@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:12:59",
+        "reconstructed": true
+      }
+    ],
+    "received_reply": true,
+    "reply_at_stage": 1,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-13T02:45:37.809830",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T02:45:37.823493",
+    "_archive_reason": "completed"
+  },
+  "christopherbest@substack.com": {
+    "company_name": "Substack",
+    "first_name": "Christopher",
+    "email": "christopherbest@substack.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2807df1cd4813",
+        "thread_id": "19b2807df1cd4813",
+        "email_message_id": "<CAGb3p8qBXXcPt11-RMqWGq+xy7rPGSoyFKHT4W=r31FK1cRsdQ@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:09:23",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd4849e6a53d6c",
+        "thread_id": "19b2807df1cd4813",
+        "email_message_id": "<CAGb3p8qBXXcPt11-RMqWGq+xy7rPGSoyFKHT4W=r31FK1cRsdQ@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:03:07.498132"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fad67b55992",
+        "thread_id": "19b2807df1cd4813",
+        "email_message_id": "<CAGb3p8qBXXcPt11-RMqWGq+xy7rPGSoyFKHT4W=r31FK1cRsdQ@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:06:34.299250"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:03:03.390054",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:06:34.317733",
+    "_archive_reason": "completed"
+  },
+  "jairajsethi@substack.com": {
+    "company_name": "Substack",
+    "first_name": "Jairaj",
+    "email": "jairajsethi@substack.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2807e04e60f2b",
+        "thread_id": "19b2807e04e60f2b",
+        "email_message_id": "<CAGb3p8omY-jATnkoGUKdoqrQDTxcsjU8yLE4-Y=oixWXTvOL5g@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:09:23",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd484cb2664f07",
+        "thread_id": "19b2807e04e60f2b",
+        "email_message_id": "<CAGb3p8omY-jATnkoGUKdoqrQDTxcsjU8yLE4-Y=oixWXTvOL5g@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:03:18.791452"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fafbd7ab81e",
+        "thread_id": "19b2807e04e60f2b",
+        "email_message_id": "<CAGb3p8omY-jATnkoGUKdoqrQDTxcsjU8yLE4-Y=oixWXTvOL5g@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:06:42.781191"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:03:14.667258",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:06:42.796118",
+    "_archive_reason": "completed"
+  },
+  "hamishmckenzie@substack.com": {
+    "company_name": "Substack",
+    "first_name": "Hamish",
+    "email": "hamishmckenzie@substack.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2807e7a7ec348",
+        "thread_id": "19b2807e7a7ec348",
+        "email_message_id": "<CAGb3p8roh1QexY6uLXGTxFgJWRgb_4u=GgL3HSjcAFHe48yEVw@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:09:24",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd484f1f687d10",
+        "thread_id": "19b2807e7a7ec348",
+        "email_message_id": "<CAGb3p8roh1QexY6uLXGTxFgJWRgb_4u=GgL3HSjcAFHe48yEVw@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:03:28.900479"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fb1b28e5257",
+        "thread_id": "19b2807e7a7ec348",
+        "email_message_id": "<CAGb3p8roh1QexY6uLXGTxFgJWRgb_4u=GgL3HSjcAFHe48yEVw@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:06:50.869915"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:03:24.189711",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:06:50.884047",
+    "_archive_reason": "completed"
+  },
+  "richard@aixventures.com": {
+    "company_name": "You Technologies",
+    "first_name": "Richard",
+    "email": "richard@aixventures.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2807f0f350e4c",
+        "thread_id": "19b2807f0f350e4c",
+        "email_message_id": "<CAGb3p8pTWAJzuAGPU3_XYSXeFLrT8L0GgtC5kk9KU4Zuuk65zw@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:09:27",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd485208856170",
+        "thread_id": "19b2807f0f350e4c",
+        "email_message_id": "<CAGb3p8pTWAJzuAGPU3_XYSXeFLrT8L0GgtC5kk9KU4Zuuk65zw@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:03:40.881163"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fb3c6b6f955",
+        "thread_id": "19b2807f0f350e4c",
+        "email_message_id": "<CAGb3p8pTWAJzuAGPU3_XYSXeFLrT8L0GgtC5kk9KU4Zuuk65zw@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:06:59.984021"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:03:36.068427",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:06:59.998147",
+    "_archive_reason": "completed"
+  },
+  "chris@phantom.app": {
+    "company_name": "Phantom",
+    "first_name": "Chris",
+    "email": "chris@phantom.app",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2807f7a0a8bde",
+        "thread_id": "19b2807f7a0a8bde",
+        "email_message_id": "<CAGb3p8r4Dw0m1vYMoqN4FzPC61iGnDe8S5LQYHrq5K3u3uJWZA@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:09:29",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd4854b2cafed8",
+        "thread_id": "19b2807f7a0a8bde",
+        "email_message_id": "<CAGb3p8r4Dw0m1vYMoqN4FzPC61iGnDe8S5LQYHrq5K3u3uJWZA@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:03:52.329544"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fb634e2e7c5",
+        "thread_id": "19b2807f7a0a8bde",
+        "email_message_id": "<CAGb3p8r4Dw0m1vYMoqN4FzPC61iGnDe8S5LQYHrq5K3u3uJWZA@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:07:09.711756"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:03:47.229247",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:07:09.731286",
+    "_archive_reason": "completed"
+  },
+  "jwalker@lunchbox.io": {
+    "company_name": "Lunchbox",
+    "first_name": "James",
+    "email": "jwalker@lunchbox.io",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2808029e1b571",
+        "thread_id": "19b2808029e1b571",
+        "email_message_id": "<CAGb3p8q4FRowJZftu9CSFp0P9hVwXRJhp9WqW-u9fSULuNajWA@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:09:32",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd48576e820859",
+        "thread_id": "19b2808029e1b571",
+        "email_message_id": "<CAGb3p8q4FRowJZftu9CSFp0P9hVwXRJhp9WqW-u9fSULuNajWA@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:04:03.042437"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fb89686229a",
+        "thread_id": "19b2808029e1b571",
+        "email_message_id": "<CAGb3p8q4FRowJZftu9CSFp0P9hVwXRJhp9WqW-u9fSULuNajWA@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:07:19.132379"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:03:59.092360",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:07:19.147926",
+    "_archive_reason": "completed"
+  },
+  "nabeel@lunchbox.io": {
+    "company_name": "Lunchbox",
+    "first_name": "Nabeel",
+    "email": "nabeel@lunchbox.io",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b28080451a5509",
+        "thread_id": "19b28080451a5509",
+        "email_message_id": "<CAGb3p8rAcZ=CBZNg=TsK-CuNnOUB11JUGx3kx79rWjk4_ToWOg@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:09:32",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd485a1156c606",
+        "thread_id": "19b28080451a5509",
+        "email_message_id": "<CAGb3p8rAcZ=CBZNg=TsK-CuNnOUB11JUGx3kx79rWjk4_ToWOg@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:04:14.349657"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fbacb983459",
+        "thread_id": "19b28080451a5509",
+        "email_message_id": "<CAGb3p8rAcZ=CBZNg=TsK-CuNnOUB11JUGx3kx79rWjk4_ToWOg@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:07:28.144521"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:04:09.655843",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:07:28.159966",
+    "_archive_reason": "completed"
+  },
+  "raghu@zolve.com": {
+    "company_name": "Zolve",
+    "first_name": "Raghunandan",
+    "email": "raghu@zolve.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2808186c4112a",
+        "thread_id": "19b2808186c4112a",
+        "email_message_id": "<CAGb3p8qGYzHxsf=VTyQKAiGpkiYxtFQDn5kCFRBfuxOcgb=OuQ@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:09:37",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd485d783dcb7a",
+        "thread_id": "19b2808186c4112a",
+        "email_message_id": "<CAGb3p8qGYzHxsf=VTyQKAiGpkiYxtFQDn5kCFRBfuxOcgb=OuQ@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:04:27.265115"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fbc8c8c487f",
+        "thread_id": "19b2808186c4112a",
+        "email_message_id": "<CAGb3p8qGYzHxsf=VTyQKAiGpkiYxtFQDn5kCFRBfuxOcgb=OuQ@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:07:35.721331"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:04:23.376344",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:07:35.739839",
+    "_archive_reason": "completed"
+  },
+  "arvind.parthiban@superops.com": {
+    "company_name": "SuperOps",
+    "first_name": "Arvind",
+    "email": "arvind.parthiban@superops.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b28081a1ca5105",
+        "thread_id": "19b28081a1ca5105",
+        "email_message_id": "<CAGb3p8q5oTvA0dc=68TWbDuPY2mroxjOSntK_pPvECeeUbh6sA@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:09:38",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd48600cb35aac",
+        "thread_id": "19b28081a1ca5105",
+        "email_message_id": "<CAGb3p8q5oTvA0dc=68TWbDuPY2mroxjOSntK_pPvECeeUbh6sA@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:04:38.224078"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fbf4d3984ad",
+        "thread_id": "19b28081a1ca5105",
+        "email_message_id": "<CAGb3p8q5oTvA0dc=68TWbDuPY2mroxjOSntK_pPvECeeUbh6sA@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:07:46.609021"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:04:34.334000",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:07:46.624747",
+    "_archive_reason": "completed"
+  },
+  "jayakumar@superops.com": {
+    "company_name": "SuperOps",
+    "first_name": "Jayakumar",
+    "email": "jayakumar@superops.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b28081a44bca54",
+        "thread_id": "19b28081a44bca54",
+        "email_message_id": "<CAGb3p8r-nPY8HVWSN8sK3vXOv85F8O6JAbB+CKkyg0uQEfh19Q@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:09:38",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd48624561c115",
+        "thread_id": "19b28081a44bca54",
+        "email_message_id": "<CAGb3p8r-nPY8HVWSN8sK3vXOv85F8O6JAbB+CKkyg0uQEfh19Q@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:04:47.296371"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fc15ee1c193",
+        "thread_id": "19b28081a44bca54",
+        "email_message_id": "<CAGb3p8r-nPY8HVWSN8sK3vXOv85F8O6JAbB+CKkyg0uQEfh19Q@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:07:54.990455"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:04:43.243493",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:07:55.004746",
+    "_archive_reason": "completed"
+  },
+  "florent@smalldoorvet.com": {
+    "company_name": "Small Door",
+    "first_name": "Florent",
+    "email": "florent@smalldoorvet.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b28081f7b12e0e",
+        "thread_id": "19b28081f7b12e0e",
+        "email_message_id": "<CAGb3p8phNzs9AOSn2Lx_=XhDdzkhVBEPTFo=bdyXaPpr8huM4A@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:09:39",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd48645dc96d54",
+        "thread_id": "19b28081f7b12e0e",
+        "email_message_id": "<CAGb3p8phNzs9AOSn2Lx_=XhDdzkhVBEPTFo=bdyXaPpr8huM4A@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:04:55.604755"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fc3d5209814",
+        "thread_id": "19b28081f7b12e0e",
+        "email_message_id": "<CAGb3p8phNzs9AOSn2Lx_=XhDdzkhVBEPTFo=bdyXaPpr8huM4A@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:08:05.826978"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:04:51.537173",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:08:05.840788",
+    "_archive_reason": "completed"
+  },
+  "josh@smalldoorvet.com": {
+    "company_name": "Small Door",
+    "first_name": "Josh",
+    "email": "josh@smalldoorvet.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2808292b0ccd7",
+        "thread_id": "19b2808292b0ccd7",
+        "email_message_id": "<CAGb3p8pGxL9=Va0KVvefeq2vwW4=4sMziKSA3i=kyg9ZoJ_wkQ@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:09:41",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd48665970bcb7",
+        "thread_id": "19b2808292b0ccd7",
+        "email_message_id": "<CAGb3p8pGxL9=Va0KVvefeq2vwW4=4sMziKSA3i=kyg9ZoJ_wkQ@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:05:04.849301"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fc68b67a7b3",
+        "thread_id": "19b2808292b0ccd7",
+        "email_message_id": "<CAGb3p8pGxL9=Va0KVvefeq2vwW4=4sMziKSA3i=kyg9ZoJ_wkQ@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:08:16.476977"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:04:59.831692",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:08:16.492379",
+    "_archive_reason": "completed"
+  },
+  "luke@companycam.com": {
+    "company_name": "CompanyCam",
+    "first_name": "Luke",
+    "email": "luke@companycam.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b28082aed33660",
+        "thread_id": "19b28082aed33660",
+        "email_message_id": "<CAGb3p8qmBKTVrsMfw-nhpyv=3Z9uNiA4zMbr5Bfie=8Kgvz-TA@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:09:42",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd4868af114b77",
+        "thread_id": "19b28082aed33660",
+        "email_message_id": "<CAGb3p8qmBKTVrsMfw-nhpyv=3Z9uNiA4zMbr5Bfie=8Kgvz-TA@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:05:13.348235"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fc8f1173b52",
+        "thread_id": "19b28082aed33660",
+        "email_message_id": "<CAGb3p8qmBKTVrsMfw-nhpyv=3Z9uNiA4zMbr5Bfie=8Kgvz-TA@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:08:26.102631"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:05:09.251893",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:08:26.117457",
+    "_archive_reason": "completed"
+  },
+  "samir@esusu.org": {
+    "company_name": "Esusu",
+    "first_name": "Samir",
+    "email": "samir@esusu.org",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b28082ce2d7699",
+        "thread_id": "19b28082ce2d7699",
+        "email_message_id": "<CAGb3p8q3VMP2zGGHonY=9a3+y_HYETVOTW6YGj97Vjkbd9kr=A@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:09:42",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd486ab6611acc",
+        "thread_id": "19b28082ce2d7699",
+        "email_message_id": "<CAGb3p8q3VMP2zGGHonY=9a3+y_HYETVOTW6YGj97Vjkbd9kr=A@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:05:21.753660"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fcafd4a3f03",
+        "thread_id": "19b28082ce2d7699",
+        "email_message_id": "<CAGb3p8q3VMP2zGGHonY=9a3+y_HYETVOTW6YGj97Vjkbd9kr=A@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:08:34.332563"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:05:17.919854",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:08:34.342511",
+    "_archive_reason": "completed"
+  },
+  "abbey@esusu.org": {
+    "company_name": "Esusu",
+    "first_name": "Wemimo",
+    "email": "abbey@esusu.org",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b28082edb5635d",
+        "thread_id": "19b28082edb5635d",
+        "email_message_id": "<CAGb3p8rNkLzGhhpOTs0mqZRK7D1EQnXBfCbq3uUOZJN7xz_emw@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:09:43",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd486d1ab04184",
+        "thread_id": "19b28082edb5635d",
+        "email_message_id": "<CAGb3p8rNkLzGhhpOTs0mqZRK7D1EQnXBfCbq3uUOZJN7xz_emw@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:05:31.780555"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fcd206fe088",
+        "thread_id": "19b28082edb5635d",
+        "email_message_id": "<CAGb3p8rNkLzGhhpOTs0mqZRK7D1EQnXBfCbq3uUOZJN7xz_emw@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:08:43.817022"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:05:27.582019",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:08:43.824595",
+    "_archive_reason": "completed"
+  },
+  "tasuku.kitada@strandtx.com": {
+    "company_name": "Strand Therapeutics",
+    "first_name": "Tasuku",
+    "email": "tasuku.kitada@strandtx.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b28084686bcda5",
+        "thread_id": "19b28084686bcda5",
+        "email_message_id": "<CAGb3p8rm5UkjOvUpU5jiYeGU-R-7wuUK0ExyNaqNvP6NcOnkNw@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:09:49",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd486f6dbb223d",
+        "thread_id": "19b28084686bcda5",
+        "email_message_id": "<CAGb3p8rm5UkjOvUpU5jiYeGU-R-7wuUK0ExyNaqNvP6NcOnkNw@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:05:41.006112"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fcf713448bf",
+        "thread_id": "19b28084686bcda5",
+        "email_message_id": "<CAGb3p8rm5UkjOvUpU5jiYeGU-R-7wuUK0ExyNaqNvP6NcOnkNw@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:08:52.970921"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:05:36.877214",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:08:52.984892",
+    "_archive_reason": "completed"
+  },
+  "rishi.gupta@airalo.com": {
+    "company_name": "Airalo",
+    "first_name": "Rishi",
+    "email": "rishi.gupta@airalo.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2808522bd4bc2",
+        "thread_id": "19b2808522bd4bc2",
+        "email_message_id": "<CAGb3p8rBeSHSh7Ot_qpBB=-CrK8GKW4v19SC-RrHdNe_21w7Nw@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:09:52",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd4871db64b3cb",
+        "thread_id": "19b2808522bd4bc2",
+        "email_message_id": "<CAGb3p8rBeSHSh7Ot_qpBB=-CrK8GKW4v19SC-RrHdNe_21w7Nw@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:05:51.031672"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fd151be620a",
+        "thread_id": "19b2808522bd4bc2",
+        "email_message_id": "<CAGb3p8rBeSHSh7Ot_qpBB=-CrK8GKW4v19SC-RrHdNe_21w7Nw@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:09:00.521958"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:05:47.037800",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:09:00.539877",
+    "_archive_reason": "completed"
+  },
+  "va@pioneerfund.vc": {
+    "company_name": "Monarch",
+    "first_name": "Val",
+    "email": "va@pioneerfund.vc",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2868719b1c3ab",
+        "thread_id": "19b2868719b1c3ab",
+        "email_message_id": "<CAGb3p8rFAG9ur-rHoZep33AwPQp27LmoXuEc7FHF_5u3_q3Xfw@mail.gmail.com>",
+        "sent_date": "2025-12-16T23:54:51",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd4874940351ed",
+        "thread_id": "19b2868719b1c3ab",
+        "email_message_id": "<CAGb3p8rFAG9ur-rHoZep33AwPQp27LmoXuEc7FHF_5u3_q3Xfw@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:06:02.192199"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fd3fb5a2950",
+        "thread_id": "19b2868719b1c3ab",
+        "email_message_id": "<CAGb3p8rFAG9ur-rHoZep33AwPQp27LmoXuEc7FHF_5u3_q3Xfw@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:09:11.056027"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:05:57.466805",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:09:11.069774",
+    "_archive_reason": "completed"
+  },
+  "val@monarchmoney.com": {
+    "company_name": "Monarch",
+    "first_name": "Val",
+    "email": "val@monarchmoney.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b28687309383ee",
+        "thread_id": "19b28687309383ee",
+        "email_message_id": "<CAGb3p8rQa+59Gp_JDDQqJEhnz8MOV=MfUOAh-hT3f0uL39Hycg@mail.gmail.com>",
+        "sent_date": "2025-12-16T23:54:52",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd487681ef927d",
+        "thread_id": "19b28687309383ee",
+        "email_message_id": "<CAGb3p8rQa+59Gp_JDDQqJEhnz8MOV=MfUOAh-hT3f0uL39Hycg@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:06:10.529483"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fd58aeb9772",
+        "thread_id": "19b28687309383ee",
+        "email_message_id": "<CAGb3p8rQa+59Gp_JDDQqJEhnz8MOV=MfUOAh-hT3f0uL39Hycg@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:09:18.223975"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:06:06.391539",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:09:18.241243",
+    "_archive_reason": "completed"
+  },
+  "jon@monarchmoney.com": {
+    "company_name": "Monarch",
+    "first_name": "Jon",
+    "email": "jon@monarchmoney.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b28086597c5bf9",
+        "thread_id": "19b28086597c5bf9",
+        "email_message_id": "<CAGb3p8qP5yLBGoqOoKi4Y3gfU2bO0bepxwAY=r4D+X5K2Dqx1A@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:09:57",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd4878cd6fa796",
+        "thread_id": "19b28086597c5bf9",
+        "email_message_id": "<CAGb3p8qP5yLBGoqOoKi4Y3gfU2bO0bepxwAY=r4D+X5K2Dqx1A@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:06:19.908620"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fd80b489ecd",
+        "thread_id": "19b28086597c5bf9",
+        "email_message_id": "<CAGb3p8qP5yLBGoqOoKi4Y3gfU2bO0bepxwAY=r4D+X5K2Dqx1A@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:09:28.156754"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:06:15.607379",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:09:28.171152",
+    "_archive_reason": "completed"
+  },
+  "ozzie@monarchmoney.com": {
+    "company_name": "Monarch",
+    "first_name": "Ozzie",
+    "email": "ozzie@monarchmoney.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b28086630ce409",
+        "thread_id": "19b28086630ce409",
+        "email_message_id": "<CAGb3p8q7kMDxkdO4h0sDfV2skSPRbUaWoQTUzGTN3qscwYkzOA@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:09:57",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd487af795f5c1",
+        "thread_id": "19b28086630ce409",
+        "email_message_id": "<CAGb3p8q7kMDxkdO4h0sDfV2skSPRbUaWoQTUzGTN3qscwYkzOA@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:06:28.387908"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fda3cf0eda4",
+        "thread_id": "19b28086630ce409",
+        "email_message_id": "<CAGb3p8q7kMDxkdO4h0sDfV2skSPRbUaWoQTUzGTN3qscwYkzOA@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:09:36.725449"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:06:24.413567",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:09:36.741358",
+    "_archive_reason": "completed"
+  },
+  "ankit@bicyclehealth.com": {
+    "company_name": "Bicycle Health",
+    "first_name": "Ankit",
+    "email": "ankit@bicyclehealth.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b28087888b9a9d",
+        "thread_id": "19b28087888b9a9d",
+        "email_message_id": "<CAGb3p8o7fGGYYkDrGBtb6ibfoMfhW2zy1Mvd4w65Z-jGykVyfg@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:10:02",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd487d06046605",
+        "thread_id": "19b28087888b9a9d",
+        "email_message_id": "<CAGb3p8o7fGGYYkDrGBtb6ibfoMfhW2zy1Mvd4w65Z-jGykVyfg@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:06:37.132214"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fdbf4c6995e",
+        "thread_id": "19b28087888b9a9d",
+        "email_message_id": "<CAGb3p8o7fGGYYkDrGBtb6ibfoMfhW2zy1Mvd4w65Z-jGykVyfg@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:09:44.336355"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:06:33.119373",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:09:44.351926",
+    "_archive_reason": "completed"
+  },
+  "brian@paytient.com": {
+    "company_name": "Paytient",
+    "first_name": "Brian",
+    "email": "brian@paytient.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b28687413ffd29",
+        "thread_id": "19b28687413ffd29",
+        "email_message_id": "<CAGb3p8r5VhRKm4KZmdm2G0AJ1aJKUkG=b1LyC_xN+sRQUvyZBg@mail.gmail.com>",
+        "sent_date": "2025-12-16T23:54:52",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd487f4500b74d",
+        "thread_id": "19b28687413ffd29",
+        "email_message_id": "<CAGb3p8r5VhRKm4KZmdm2G0AJ1aJKUkG=b1LyC_xN+sRQUvyZBg@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:06:46.327623"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fde595f72cf",
+        "thread_id": "19b28687413ffd29",
+        "email_message_id": "<CAGb3p8r5VhRKm4KZmdm2G0AJ1aJKUkG=b1LyC_xN+sRQUvyZBg@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:09:53.757513"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:06:42.425050",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:09:53.772180",
+    "_archive_reason": "completed"
+  },
+  "brian@paytient.co": {
+    "company_name": "Paytient",
+    "first_name": "Brian",
+    "email": "brian@paytient.co",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b286877f571dc4",
+        "thread_id": "19b286877f571dc4",
+        "email_message_id": "<CAGb3p8rMgdx_FkKTaOcDm7rBRj+sDyy5-+YpnGddi8DsXLBDdQ@mail.gmail.com>",
+        "sent_date": "2025-12-16T23:54:53",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd4881b6eb30fe",
+        "thread_id": "19b286877f571dc4",
+        "email_message_id": "<CAGb3p8rMgdx_FkKTaOcDm7rBRj+sDyy5-+YpnGddi8DsXLBDdQ@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:06:55.885872"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fe083368f3e",
+        "thread_id": "19b286877f571dc4",
+        "email_message_id": "<CAGb3p8rMgdx_FkKTaOcDm7rBRj+sDyy5-+YpnGddi8DsXLBDdQ@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:10:02.979780"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:06:51.995510",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:10:02.995558",
+    "_archive_reason": "completed"
+  },
+  "daniel@paytient.com": {
+    "company_name": "Paytient",
+    "first_name": "Daniel",
+    "email": "daniel@paytient.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2868894ef76cd",
+        "thread_id": "19b2868894ef76cd",
+        "email_message_id": "<CAGb3p8pq3rx2CiKbE+4zEU0fpq4SmMDa+t-rQ5t7eJKFHNM3UA@mail.gmail.com>",
+        "sent_date": "2025-12-16T23:54:57",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd4883d371b7d6",
+        "thread_id": "19b2868894ef76cd",
+        "email_message_id": "<CAGb3p8pq3rx2CiKbE+4zEU0fpq4SmMDa+t-rQ5t7eJKFHNM3UA@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:07:04.759383"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fe2d4561677",
+        "thread_id": "19b2868894ef76cd",
+        "email_message_id": "<CAGb3p8pq3rx2CiKbE+4zEU0fpq4SmMDa+t-rQ5t7eJKFHNM3UA@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:10:12.906459"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:07:00.561407",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:10:12.920846",
+    "_archive_reason": "completed"
+  },
+  "daniel@paytient.co": {
+    "company_name": "Paytient",
+    "first_name": "Daniel",
+    "email": "daniel@paytient.co",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b28688b211fa05",
+        "thread_id": "19b28688b211fa05",
+        "email_message_id": "<CAGb3p8p-BdNJyZAEViPOeGAnAf3ePhftEjRNA67uEkXLw2wuzw@mail.gmail.com>",
+        "sent_date": "2025-12-16T23:54:58",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd488648b6b592",
+        "thread_id": "19b28688b211fa05",
+        "email_message_id": "<CAGb3p8p-BdNJyZAEViPOeGAnAf3ePhftEjRNA67uEkXLw2wuzw@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:07:15.142602"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fe4c67d28a4",
+        "thread_id": "19b28688b211fa05",
+        "email_message_id": "<CAGb3p8p-BdNJyZAEViPOeGAnAf3ePhftEjRNA67uEkXLw2wuzw@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:10:20.533882"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:07:11.210714",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:10:20.549223",
+    "_archive_reason": "completed"
+  },
+  "jacob@observeinc.com": {
+    "company_name": "Observe",
+    "first_name": "Jacob",
+    "email": "jacob@observeinc.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b28088c0925a56",
+        "thread_id": "19b28088c0925a56",
+        "email_message_id": "<CAGb3p8q_Kom89fjTnsavTCh0ok453cs_qUZ9nDfzwpKdhgffHA@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:10:07",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd488a8bf2ed6c",
+        "thread_id": "19b28088c0925a56",
+        "email_message_id": "<CAGb3p8q_Kom89fjTnsavTCh0ok453cs_qUZ9nDfzwpKdhgffHA@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:07:32.408062"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fe689fe2841",
+        "thread_id": "19b28088c0925a56",
+        "email_message_id": "<CAGb3p8q_Kom89fjTnsavTCh0ok453cs_qUZ9nDfzwpKdhgffHA@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:10:27.652134"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:07:28.106509",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:10:27.666660",
+    "_archive_reason": "completed"
+  },
+  "jonathan@observeinc.com": {
+    "company_name": "Observe",
+    "first_name": "Jonathan",
+    "email": "jonathan@observeinc.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b28088f2d79c79",
+        "thread_id": "19b28088f2d79c79",
+        "email_message_id": "<CAGb3p8r+n5dwfsCkpUGJpZx8riU+2SP8WXATiwCoSK5XBWmHVA@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:10:08",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd488c82e49cf1",
+        "thread_id": "19b28088f2d79c79",
+        "email_message_id": "<CAGb3p8r+n5dwfsCkpUGJpZx8riU+2SP8WXATiwCoSK5XBWmHVA@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:07:40.725031"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fe8e4228bc8",
+        "thread_id": "19b28088f2d79c79",
+        "email_message_id": "<CAGb3p8r+n5dwfsCkpUGJpZx8riU+2SP8WXATiwCoSK5XBWmHVA@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:10:37.319821"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:07:36.961176",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:10:37.335583",
+    "_archive_reason": "completed"
+  },
+  "avery@tailscale.com": {
+    "company_name": "Tailscale",
+    "first_name": "Avery",
+    "email": "avery@tailscale.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2808a19f97c22",
+        "thread_id": "19b2808a19f97c22",
+        "email_message_id": "<CAGb3p8ruf2K86_TwRHZfqB3eJbGb1=fwyA1YQ3ocxS2Yu21tgQ@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:10:12",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd488f764bfd05",
+        "thread_id": "19b2808a19f97c22",
+        "email_message_id": "<CAGb3p8ruf2K86_TwRHZfqB3eJbGb1=fwyA1YQ3ocxS2Yu21tgQ@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:07:52.374746"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3feb3bd11b6a",
+        "thread_id": "19b2808a19f97c22",
+        "email_message_id": "<CAGb3p8ruf2K86_TwRHZfqB3eJbGb1=fwyA1YQ3ocxS2Yu21tgQ@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:10:46.493645"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:07:47.667204",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:10:46.508311",
+    "_archive_reason": "completed"
+  },
+  "kareem@clay.com": {
+    "company_name": "Clay",
+    "first_name": "Kareem",
+    "email": "kareem@clay.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2808a464fc78e",
+        "thread_id": "19b2808a464fc78e",
+        "email_message_id": "<CAGb3p8rotj+e4yC8e5_c4aV-Tsy4Oq0hTePXLHUb4mYmNZ6mWA@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:10:13",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd489152c5454d",
+        "thread_id": "19b2808a464fc78e",
+        "email_message_id": "<CAGb3p8rotj+e4yC8e5_c4aV-Tsy4Oq0hTePXLHUb4mYmNZ6mWA@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:08:00.019933"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fed36f5ff2b",
+        "thread_id": "19b2808a464fc78e",
+        "email_message_id": "<CAGb3p8rotj+e4yC8e5_c4aV-Tsy4Oq0hTePXLHUb4mYmNZ6mWA@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:10:54.583163"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:07:56.164338",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:10:54.599774",
+    "_archive_reason": "completed"
+  },
+  "nicolae@clay.com": {
+    "company_name": "Clay",
+    "first_name": "Nicolae",
+    "email": "nicolae@clay.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2808a779d7769",
+        "thread_id": "19b2808a779d7769",
+        "email_message_id": "<CAGb3p8qdHT_VOYxwmBoS8-0Ot5JgP+y+ihqmB2XLko7DK_aWcQ@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:10:14",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd4893d18b5746",
+        "thread_id": "19b2808a779d7769",
+        "email_message_id": "<CAGb3p8qdHT_VOYxwmBoS8-0Ot5JgP+y+ihqmB2XLko7DK_aWcQ@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:08:10.295545"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3fef79304a40",
+        "thread_id": "19b2808a779d7769",
+        "email_message_id": "<CAGb3p8qdHT_VOYxwmBoS8-0Ot5JgP+y+ihqmB2XLko7DK_aWcQ@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:11:04.003952"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:08:06.491218",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:11:04.017614",
+    "_archive_reason": "completed"
+  },
+  "scott@cardless.com": {
+    "company_name": "Cardless",
+    "first_name": "Scott",
+    "email": "scott@cardless.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2808b0743ae94",
+        "thread_id": "19b2808b0743ae94",
+        "email_message_id": "<CAGb3p8ovQuD5HhVzREG8C0KUp7=ZmptREqPbYgWBod5AvLehnA@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:10:16",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd4895fd764756",
+        "thread_id": "19b2808b0743ae94",
+        "email_message_id": "<CAGb3p8ovQuD5HhVzREG8C0KUp7=ZmptREqPbYgWBod5AvLehnA@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:08:18.827316"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3ff15ca7edee",
+        "thread_id": "19b2808b0743ae94",
+        "email_message_id": "<CAGb3p8ovQuD5HhVzREG8C0KUp7=ZmptREqPbYgWBod5AvLehnA@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:11:11.586094"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:08:14.698839",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:11:11.601464",
+    "_archive_reason": "completed"
+  },
+  "michael@cardless.com": {
+    "company_name": "Cardless",
+    "first_name": "Michael",
+    "email": "michael@cardless.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2808b31e5dcf7",
+        "thread_id": "19b2808b31e5dcf7",
+        "email_message_id": "<CAGb3p8opi35sGbBsc-bLR4sxoEGAZkuGpqB9wA1hokmZ=vMAww@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:10:17",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd489842b02658",
+        "thread_id": "19b2808b31e5dcf7",
+        "email_message_id": "<CAGb3p8opi35sGbBsc-bLR4sxoEGAZkuGpqB9wA1hokmZ=vMAww@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:08:28.626325"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3ff3823eed09",
+        "thread_id": "19b2808b31e5dcf7",
+        "email_message_id": "<CAGb3p8opi35sGbBsc-bLR4sxoEGAZkuGpqB9wA1hokmZ=vMAww@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:11:21.332951"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:08:24.530518",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:11:21.350608",
+    "_archive_reason": "completed"
+  },
+  "omair@cart.com": {
+    "company_name": "Cart.com",
+    "first_name": "Omair",
+    "email": "omair@cart.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2808b4c2602f8",
+        "thread_id": "19b2808b4c2602f8",
+        "email_message_id": "<CAGb3p8qHP7-0sRfAhx1-zmaACQijomqSEG2oNkEF5PE_ztgRZw@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:10:17",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd489aa4c3b9f5",
+        "thread_id": "19b2808b4c2602f8",
+        "email_message_id": "<CAGb3p8qHP7-0sRfAhx1-zmaACQijomqSEG2oNkEF5PE_ztgRZw@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:08:38.353168"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3ff5ad339bca",
+        "thread_id": "19b2808b4c2602f8",
+        "email_message_id": "<CAGb3p8qHP7-0sRfAhx1-zmaACQijomqSEG2oNkEF5PE_ztgRZw@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:11:29.706943"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:08:34.281172",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:11:29.720219",
+    "_archive_reason": "completed"
+  },
+  "remington@cart.com": {
+    "company_name": "Cart.com",
+    "first_name": "Remington",
+    "email": "remington@cart.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b28688eb24cf0a",
+        "thread_id": "19b28688eb24cf0a",
+        "email_message_id": "<CAGb3p8rahT9wwNV_fAogGp4=QJjb-JLSTDKzXBMS71cyAVMogw@mail.gmail.com>",
+        "sent_date": "2025-12-16T23:54:59",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd489e87265407",
+        "thread_id": "19b28688eb24cf0a",
+        "email_message_id": "<CAGb3p8rahT9wwNV_fAogGp4=QJjb-JLSTDKzXBMS71cyAVMogw@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:08:54.942214"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3ff78844735e",
+        "thread_id": "19b28688eb24cf0a",
+        "email_message_id": "<CAGb3p8rahT9wwNV_fAogGp4=QJjb-JLSTDKzXBMS71cyAVMogw@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:11:37.181764"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:08:49.406104",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:11:37.194905",
+    "_archive_reason": "completed"
+  },
+  "aidan.dewar@usenourish.com": {
+    "company_name": "Nourish",
+    "first_name": "Aidan",
+    "email": "aidan.dewar@usenourish.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2808dfdddf052",
+        "thread_id": "19b2808dfdddf052",
+        "email_message_id": "<CAGb3p8p4Hw-tHfNHG7XmftSi-bYeQdLvWPn2rW-P-W0S2yh++A@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:10:28",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd48a3edc8e61e",
+        "thread_id": "19b2808dfdddf052",
+        "email_message_id": "<CAGb3p8p4Hw-tHfNHG7XmftSi-bYeQdLvWPn2rW-P-W0S2yh++A@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:09:16.139073"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3ff99bbe80b5",
+        "thread_id": "19b2808dfdddf052",
+        "email_message_id": "<CAGb3p8p4Hw-tHfNHG7XmftSi-bYeQdLvWPn2rW-P-W0S2yh++A@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:11:45.374126"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:09:11.428301",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:11:45.390228",
+    "_archive_reason": "completed"
+  },
+  "stephanie.liu@usenourish.com": {
+    "company_name": "Nourish",
+    "first_name": "Stephanie",
+    "email": "stephanie.liu@usenourish.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2808f1a0d0cf4",
+        "thread_id": "19b2808f1a0d0cf4",
+        "email_message_id": "<CAGb3p8qOtbDC9S_udbwmv-y-Z3dZhmNKCVoH4AhsZc-VJ69GRA@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:10:33",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd48b4cf001d29",
+        "thread_id": "19b2808f1a0d0cf4",
+        "email_message_id": "<CAGb3p8qOtbDC9S_udbwmv-y-Z3dZhmNKCVoH4AhsZc-VJ69GRA@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:10:25.463915"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3ffc3f9e9084",
+        "thread_id": "19b2808f1a0d0cf4",
+        "email_message_id": "<CAGb3p8qOtbDC9S_udbwmv-y-Z3dZhmNKCVoH4AhsZc-VJ69GRA@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:11:56.553544"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:10:21.367706",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:11:56.569025",
+    "_archive_reason": "completed"
+  },
+  "sam.perkins@usenourish.com": {
+    "company_name": "Nourish",
+    "first_name": "Sam",
+    "email": "sam.perkins@usenourish.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2808f51dec58f",
+        "thread_id": "19b2808f51dec58f",
+        "email_message_id": "<CAGb3p8py_USEM73YErFkJhWbffstb7dGSTLb+CN_GL-3YuxZ6Q@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:10:34",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd48b6df951c06",
+        "thread_id": "19b2808f51dec58f",
+        "email_message_id": "<CAGb3p8py_USEM73YErFkJhWbffstb7dGSTLb+CN_GL-3YuxZ6Q@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:10:33.655148"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce3ffe86d8bd68",
+        "thread_id": "19b2808f51dec58f",
+        "email_message_id": "<CAGb3p8py_USEM73YErFkJhWbffstb7dGSTLb+CN_GL-3YuxZ6Q@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:12:05.752121"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:10:29.457242",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:12:05.767476",
+    "_archive_reason": "completed"
+  },
+  "atif@branchapp.com": {
+    "company_name": "Branch",
+    "first_name": "Atif",
+    "email": "atif@branchapp.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2808f760a84cb",
+        "thread_id": "19b2808f760a84cb",
+        "email_message_id": "<CAGb3p8oGYUBgt71vjNkFh+iKEfnvKeEkvE2AO9t_guDbPznK2g@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:10:34",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd48b8c28aa12c",
+        "thread_id": "19b2808f760a84cb",
+        "email_message_id": "<CAGb3p8oGYUBgt71vjNkFh+iKEfnvKeEkvE2AO9t_guDbPznK2g@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:10:42.185866"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce40007b0fb513",
+        "thread_id": "19b2808f760a84cb",
+        "email_message_id": "<CAGb3p8oGYUBgt71vjNkFh+iKEfnvKeEkvE2AO9t_guDbPznK2g@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:12:13.627722"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:10:37.662692",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:12:13.651970",
+    "_archive_reason": "completed"
+  },
+  "stephane@jiko.com": {
+    "company_name": "Jiko",
+    "first_name": "Stephane",
+    "email": "stephane@jiko.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b280900fc6911f",
+        "thread_id": "19b280900fc6911f",
+        "email_message_id": "<CAGb3p8o8P1qSvjb2sEr6pEFKnJhAj5ONRMZk=KtMviYwhfJjxg@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:10:37",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd48bb2978f3b3",
+        "thread_id": "19b280900fc6911f",
+        "email_message_id": "<CAGb3p8o8P1qSvjb2sEr6pEFKnJhAj5ONRMZk=KtMviYwhfJjxg@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:10:51.370523"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce4002d942d9d5",
+        "thread_id": "19b280900fc6911f",
+        "email_message_id": "<CAGb3p8o8P1qSvjb2sEr6pEFKnJhAj5ONRMZk=KtMviYwhfJjxg@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:12:23.467186"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:10:47.175346",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:12:23.480470",
+    "_archive_reason": "completed"
+  },
+  "cody@trustandwill.com": {
+    "company_name": "Trust and Will",
+    "first_name": "Cody",
+    "email": "cody@trustandwill.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b280907f842035",
+        "thread_id": "19b280907f842035",
+        "email_message_id": "<CAGb3p8r8sGA+kjtKwF+Ex_j=m3COMm7bs0+N=+cjBAe7BmM9iQ@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:10:38",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd48bd6a6f93c2",
+        "thread_id": "19b280907f842035",
+        "email_message_id": "<CAGb3p8r8sGA+kjtKwF+Ex_j=m3COMm7bs0+N=+cjBAe7BmM9iQ@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:11:00.699470"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce40050006fc19",
+        "thread_id": "19b280907f842035",
+        "email_message_id": "<CAGb3p8r8sGA+kjtKwF+Ex_j=m3COMm7bs0+N=+cjBAe7BmM9iQ@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:12:32.274155"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:10:56.556310",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:12:32.289230",
+    "_archive_reason": "completed"
+  },
+  "daniel@trustandwill.com": {
+    "company_name": "Trust and Will",
+    "first_name": "Daniel",
+    "email": "daniel@trustandwill.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19b2809104ee6513",
+        "thread_id": "19b2809104ee6513",
+        "email_message_id": "<CAGb3p8p+UXw2M1NJUdOn0XKDiDUj=CHH2hk8XALh5Rgn3=UW3g@mail.gmail.com>",
+        "sent_date": "2025-12-16T22:10:41",
+        "reconstructed": true
+      },
+      {
+        "stage": 2,
+        "message_id": "19cd48c0049dff51",
+        "thread_id": "19b2809104ee6513",
+        "email_message_id": "<CAGb3p8p+UXw2M1NJUdOn0XKDiDUj=CHH2hk8XALh5Rgn3=UW3g@mail.gmail.com>",
+        "sent_date": "2026-03-10T03:11:11.339232"
+      },
+      {
+        "stage": 3,
+        "message_id": "19ce4006d01afd8c",
+        "thread_id": "19b2809104ee6513",
+        "email_message_id": "<CAGb3p8p+UXw2M1NJUdOn0XKDiDUj=CHH2hk8XALh5Rgn3=UW3g@mail.gmail.com>",
+        "sent_date": "2026-03-13T03:12:39.810913"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "reconstructed_from_gmail": true,
+    "reconstruction_date": "2026-03-10T03:11:07.241951",
+    "_source_csv": "3.csv",
+    "_archived_at": "2026-03-13T03:12:39.825144",
+    "_archive_reason": "completed"
+  },
+  "yaron@liquidity-capital.com": {
+    "company_name": "Liquidity Group",
+    "first_name": "Yaron",
+    "email": "yaron@liquidity-capital.com",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19ce3e9811dfed00",
+        "thread_id": "19ce3e9811dfed00",
+        "email_message_id": "<CAGb3p8pYnnnR_0ehWBcctL7NpQ8gVG_XTPOUtN502REZ32ML7g@mail.gmail.com>",
+        "sent_date": "2026-03-13T02:47:37.415304"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "_source_csv": "3.csv",
+    "bounced": true,
+    "bounce_detected_date": "2026-03-13T03:19:33.774975",
+    "_archived_at": "2026-03-13T03:19:33.790997",
+    "_archive_reason": "bounced"
+  },
+  "joe@siro.ai": {
+    "company_name": "Siro Technologies",
+    "first_name": "Joe",
+    "email": "joe@siro.ai",
+    "emails_sent": [
+      {
+        "stage": 1,
+        "message_id": "19ce3ea91a99a891",
+        "thread_id": "19ce3ea91a99a891",
+        "email_message_id": "<CAGb3p8qvARBq5YMhCnoFaSZ8c=fsgG-TWzr6Q79eXGej9uNtRQ@mail.gmail.com>",
+        "sent_date": "2026-03-13T02:48:47.302155"
+      }
+    ],
+    "received_reply": false,
+    "reply_at_stage": null,
+    "_source_csv": "3.csv",
+    "bounced": true,
+    "bounce_detected_date": "2026-03-13T03:20:53.241000",
+    "_archived_at": "2026-03-13T03:20:53.256168",
+    "_archive_reason": "bounced"
+  }
+}
