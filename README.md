@@ -23,9 +23,11 @@ This system sends personalized cold emails from your Gmail account to a list of 
 ```
 Cold-Email-Automation/
 │
-├── cold_email_automation.py     ← Main script. Run this to send emails.
-├── excel_to_csv_converter.py    ← Convert Tracxn Excel exports to CSV format.
-├── START.bat                    ← Double-click to run on Windows (no terminal needed).
+| File/Folder | What It Contains |
+| ├── cold_email_automation.py     ← Main script. Run this to send emails.
+| ├── excel_to_csv_converter.py    ← Convert Tracxn Excel exports to CSV format.
+| ├── START.bat                    ← Double-click to run on Windows (no terminal needed).
+| ├── START.sh                     ← Run to execute on macOS/Linux (no terminal needed).
 ├── requirements.txt             ← All Python packages needed.
 │
 ├── credentials.json             ← YOUR Google OAuth file (see Step 2 below).
@@ -49,11 +51,24 @@ Cold-Email-Automation/
 
 ### Step 1 — Install Python
 
+**Windows:**
 1. Download Python 3.10 or newer from https://www.python.org/downloads/
 2. During installation, **check the box "Add Python to PATH"**
 3. Verify it installed: open Command Prompt and type:
    ```
    python --version
+   ```
+   You should see something like `Python 3.11.x`
+
+**macOS:**
+1. Install Python 3.10+ using Homebrew (recommended):
+   ```bash
+   brew install python3
+   ```
+   Or download from https://www.python.org/downloads/
+2. Verify installation:
+   ```bash
+   python3 --version
    ```
    You should see something like `Python 3.11.x`
 
@@ -121,6 +136,8 @@ HUGGINGFACEHUB_API_TOKEN=hf_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 ### Step 4 — Create Virtual Environment & Install Packages
 
+**Windows:**
+
 Open Command Prompt **inside the `Cold-Email-Automation` folder**:
 - Navigate in File Explorer to the folder
 - Click the address bar at the top → type `cmd` → press Enter
@@ -140,6 +157,30 @@ pip install -r requirements.txt
 Wait for all packages to install (may take 5-10 minutes the first time).
 
 > **Note:** Every time you open a new terminal to run the script, you must run `venv\Scripts\activate` first. The `START.bat` file does this automatically.
+
+**macOS:**
+
+Open Terminal and navigate to the project folder:
+
+```bash
+cd /path/to/Smart-Email-Agent
+```
+
+Then run these commands one by one:
+
+```bash
+python3 -m venv venv
+```
+```bash
+source venv/bin/activate
+```
+```bash
+pip install -r requirements.txt
+```
+
+Wait for all packages to install (may take 5-10 minutes the first time).
+
+> **Note:** Every time you open a new terminal to run the script, you must run `source venv/bin/activate` first. The `START.sh` script does this automatically.
 
 ---
 
@@ -210,10 +251,14 @@ Microsoft,Sarah,sarah@microsoft.com
 
 **If you have Excel files (Tracxn exports):**
 
-Use the included converter to generate CSVs from Excel:
-
+**Windows:**
 ```cmd
 python excel_to_csv_converter.py your_excel_folder_name
+```
+
+**macOS:**
+```bash
+python3 excel_to_csv_converter.py your_excel_folder_name
 ```
 
 This reads the `People 2.1` sheet from each `.xlsx` file and outputs numbered CSV files.
@@ -222,13 +267,28 @@ This reads the `People 2.1` sheet from each `.xlsx` file and outputs numbered CS
 
 ### Step 8 — Run the System
 
-**Option A — Double-click (Windows, easiest):**
+**Windows:**
+
+**Option A — Double-click (easiest):**
 Double-click `START.bat` in the folder. It activates the virtual environment and starts the script automatically.
 
 **Option B — Command line:**
 ```cmd
 venv\Scripts\activate
 python cold_email_automation.py
+```
+
+**macOS:**
+
+**Option A — Using the script (easiest):**
+```bash
+./START.sh
+```
+
+**Option B — Command line:**
+```bash
+source venv/bin/activate
+python3 cold_email_automation.py
 ```
 
 ---
@@ -353,19 +413,22 @@ The script has built-in rate limiting (pauses every 50 emails) to stay within li
 ```
 SETUP (one time):
 1. Install Python 3.10+
+   - Windows: Download from python.org, check "Add to PATH"
+   - macOS: brew install python3
 2. Download credentials.json from Google Cloud Console
 3. Get Gemini API keys from aistudio.google.com
 4. Fill in .env file with your API keys
 5. Replace credentials.json with your downloaded file
-6. Run: python -m venv venv
-7. Run: venv\Scripts\activate
+6. Run: python3 -m venv venv (macOS) or python -m venv venv (Windows)
+7. Run: source venv/bin/activate (macOS) or venv\Scripts\activate (Windows)
 8. Run: pip install -r requirements.txt
 9. Put your resume PDF in the root folder (rename to Gaurav_Resume.pdf)
 10. Edit email templates in cold_email_automation.py
 
 EVERY RUN:
 1. Put CSV files in mail/ (named 1.csv, 2.csv, etc.)
-2. Double-click START.bat (or run: venv\Scripts\activate && python cold_email_automation.py)
+2. Windows: Double-click START.bat
+   macOS: Run ./START.sh in terminal
 3. Choose Gmail account (option 1 to keep same, option 2 to switch)
 4. Choose mode (option 1 for drafts, option 2 to send live)
 5. Watch the console output
