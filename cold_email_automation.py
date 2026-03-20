@@ -297,13 +297,20 @@ class ColdEmailAutomation:
         # Archive file also per-account, in tracking folder
         self.archive_file = os.path.join(self.tracking_folder, f"email_archive_{email_safe}.json")
         
+        # Archived domains file — persists domains where a reply was received
+        self.archived_domains_file = os.path.join(self.tracking_folder, f"archived_domains_{email_safe}.json")
+        
         self.tracking_db = self.load_tracking_db()
+        self.archived_domains = self._load_archived_domains()
         
         print(f"✓ Authenticated as: {self.authenticated_email}")
         print(f"✓ Loaded {len(self.prospects)} prospects")
         print(f"✓ Tracking file: {self.tracking_file}")
         print(f"✓ Archive file: {self.archive_file}")
+        print(f"✓ Archived domains file: {self.archived_domains_file}")
         print(f"✓ Tracking {len(self.tracking_db)} existing email threads")
+        if self.archived_domains:
+            print(f"✓ {len(self.archived_domains)} domain(s) already archived (replied): {sorted(self.archived_domains)}")
     
     def load_prospects(self) -> pd.DataFrame:
         """Load prospect data from Excel/CSV"""
@@ -505,6 +512,64 @@ class ColdEmailAutomation:
             print(f"⚠️ Your progress may not be saved!")
 
     # --- Archive helpers -------------------------------------------------
+
+    # Generic/personal email domains — we do NOT batch-archive these because
+    # different people at gmail.com / yahoo.com are unrelated companies.
+    GENERIC_DOMAINS = {
+        'gmail.com', 'yahoo.com', 'yahoo.in', 'hotmail.com', 'outlook.com',
+        'live.com', 'icloud.com', 'me.com', 'aol.com', 'protonmail.com',
+        'proton.me', 'zoho.com', 'mail.com', 'ymail.com', 'googlemail.com',
+    }
+
+    def _get_domain(self, email: str) -> str:
+        """Extract the domain part of an email address.
+        
+        Returns empty string if email is invalid.
+        """
+        try:
+            return email.strip().lower().split('@')[1]
+        except (IndexError, AttributeError):
+            return ''
+
+    def _load_archived_domains(self) -> set:
+        """Load the persisted set of archived domains from disk."""
+        if os.path.exists(self.archived_domains_file):
+            try:
+                with open(self.archived_domains_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    # stored as list of objects: [{"domain": ..., "archived_at": ..., "reason": ...}]
+                    return set(entry['domain'] for entry in data if 'domain' in entry)
+            except Exception:
+                return set()
+        return set()
+
+    def _save_archived_domains(self, domain: str, reason: str = 'replied'):
+        """Append a domain to the persisted archived_domains JSON file."""
+        try:
+            existing: list = []
+            if os.path.exists(self.archived_domains_file):
+                try:
+                    with open(self.archived_domains_file, 'r', encoding='utf-8') as f:
+                        existing = json.load(f)
+                except Exception:
+                    existing = []
+            
+            # Avoid duplicate entries
+            known = {e['domain'] for e in existing if 'domain' in e}
+            if domain not in known:
+                existing.append({
+                    'domain': domain,
+                    'archived_at': datetime.now().isoformat(),
+                    'reason': reason,
+                })
+            
+            tmp = self.archived_domains_file + '.tmp'
+            with open(tmp, 'w', encoding='utf-8') as f:
+                json.dump(existing, f, indent=2, ensure_ascii=False)
+            os.replace(tmp, self.archived_domains_file)
+        except Exception as e:
+            print(f"  ⚠️ Could not save archived domains: {e}")
+
     def _load_archive(self) -> dict:
         """Load archive file if exists, otherwise return empty dict."""
         archive_file = getattr(self, 'archive_file', 'email_archive.json')
@@ -523,6 +588,66 @@ class ColdEmailAutomation:
         with open(tmp, 'w', encoding='utf-8') as f:
             json.dump(archive_data, f, indent=2, ensure_ascii=False)
         os.replace(tmp, archive_file)
+
+    def archive_domain(self, replied_email: str, reason: str = 'replied') -> int:
+        """Archive ALL contacts that share the same email domain as `replied_email`.
+
+        This prevents sending further emails to colleagues at the same company
+        once any one person has responded.
+
+        Generic personal domains (gmail.com, yahoo.com, etc.) are intentionally
+        skipped — we only archive under a domain when it clearly belongs to a
+        single organisation.
+
+        Args:
+            replied_email: The email address that sent a reply.
+            reason: Archive reason tag stored in the record.
+
+        Returns:
+            Number of additional prospects archived (excluding the replier).
+        """
+        domain = self._get_domain(replied_email)
+        if not domain:
+            print(f"  ⚠️ Could not extract domain from {replied_email}; skipping domain archive.")
+            return 0
+
+        if domain in self.GENERIC_DOMAINS:
+            print(f"  ℹ️ Domain '{domain}' is a generic/personal provider — skipping batch archive.")
+            return 0
+
+        if domain in self.archived_domains:
+            print(f"  ℹ️ Domain '{domain}' already archived — nothing to do.")
+            return 0
+
+        print(f"  🏢 Archiving all contacts from domain: @{domain}")
+
+        # Collect keys to archive (copy to avoid mutating dict while iterating)
+        to_archive = [
+            key for key, record in list(self.tracking_db.items())
+            if self._get_domain(key) == domain and key != replied_email
+        ]
+
+        archived_count = 0
+        for key in to_archive:
+            try:
+                company = self.tracking_db.get(key, {}).get('company_name', key)
+                name = self.tracking_db.get(key, {}).get('first_name', '')
+                print(f"    ↳ Archiving colleague: {name} ({key}) at {company}")
+                self.archive_prospect(key, reason=reason)
+                archived_count += 1
+            except Exception as e:
+                print(f"    ⚠️ Failed to archive {key}: {e}")
+
+        # Mark domain as archived (in-memory + persistent)
+        self.archived_domains.add(domain)
+        self._save_archived_domains(domain, reason=reason)
+
+        if archived_count:
+            print(f"  ✅ Domain archive complete: {archived_count} additional contact(s) archived from @{domain}")
+        else:
+            print(f"  ✅ Domain archive complete: no other active contacts found for @{domain}")
+
+        return archived_count
 
     def archive_prospect(self, tracking_key: str, reason: str = "completed") -> bool:
         """Move a prospect from tracking_db into the archive file and remove from CSV.
@@ -1329,6 +1454,21 @@ class ColdEmailAutomation:
         print(f"Processing: {company_name} - {first_name} ({email})")
         print(f"{'='*60}")
         
+        # --- DOMAIN-LEVEL SKIP CHECK ---
+        # If we have already received a reply from this domain, skip all other
+        # contacts from the same company without even checking Gmail.
+        prospect_domain = self._get_domain(email)
+        if prospect_domain and prospect_domain not in self.GENERIC_DOMAINS and prospect_domain in self.archived_domains:
+            print(f"  🏢 Skipping {email} — domain '@{prospect_domain}' already replied.")
+            # Archive this contact so they are also removed from CSV
+            tracking_key = email
+            if tracking_key in self.tracking_db:
+                try:
+                    self.archive_prospect(tracking_key, reason='domain_replied')
+                except Exception:
+                    pass
+            return False
+        
         # Get tracking data for this prospect
         tracking_key = email
         if tracking_key not in self.tracking_db:
@@ -1556,9 +1696,10 @@ class ColdEmailAutomation:
                     prospect_data['reply_at_stage'] = 0  # Before we could send
                     prospect_data['reply_detected_date'] = datetime.now().isoformat()
                     self.save_tracking_db()
-                    # Archive prospect since they already replied
+                    # Archive prospect AND all colleagues from same domain
                     try:
                         self.archive_prospect(tracking_key, reason="completed")
+                        self.archive_domain(email, reason='replied')
                     except Exception:
                         pass
                     return False
@@ -1617,9 +1758,10 @@ class ColdEmailAutomation:
                     
                     self.save_tracking_db()
                     print(f"  💾 Tracking updated: No more emails will be sent.")
-                    # Archive prospect to avoid further checks
+                    # Archive prospect AND all colleagues from same domain
                     try:
                         self.archive_prospect(tracking_key, reason="completed")
+                        self.archive_domain(email, reason='replied')
                     except Exception:
                         pass
                     return False
@@ -1762,9 +1904,10 @@ class ColdEmailAutomation:
                     prospect_data['reply_at_stage'] = prospect_data['emails_sent'][-1]['stage'] if prospect_data['emails_sent'] else current_stage-1
                     prospect_data['reply_detected_date'] = datetime.now().isoformat()
                     self.save_tracking_db()
-                    # Archive prospect to avoid further checks
+                    # Archive prospect AND all colleagues from same domain
                     try:
                         self.archive_prospect(tracking_key, reason="completed")
+                        self.archive_domain(email, reason='replied')
                     except Exception:
                         pass
                     return False
