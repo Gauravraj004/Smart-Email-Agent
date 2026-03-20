@@ -1473,29 +1473,10 @@ class ColdEmailAutomation:
             else:
                 # Prospect was never tracked; remove directly from its source CSV if possible
                 if source_csv:
-                    try:
-                        csv_path = source_csv if not os.path.isdir(self.excel_file) else os.path.join(self.excel_file, source_csv)
-                        df = pd.read_csv(csv_path)
-                        # Find the correct email column (handle variations)
-                        email_col = next((col for col in df.columns if 'email' in col.lower() or 'mail' in col.lower()), None)
-                        
-                        if email_col:
-                            before_count = len(df)
-                            
-                            def contains_email(cell_value):
-                                if pd.isna(cell_value):
-                                    return False
-                                cell_lower = str(cell_value).lower()
-                                email_lower = tracking_key.lower()
-                                return cell_lower == email_lower or email_lower in cell_lower
-                                
-                            df = df[~df[email_col].apply(contains_email)]
-                            
-                            if len(df) != before_count:
-                                df.to_csv(csv_path, index=False)
-                                print(f"  Removed untracked prospect {email} from CSV '{source_csv}' due to domain-level skip.")
-                    except Exception as e:
-                        print(f"  ⚠️ Failed to remove untracked prospect {email} from CSV '{source_csv}': {e}")
+                    self._remove_from_csv(tracking_key, source_csv)
+                    print(f"  Removed untracked prospect {email} from CSV '{source_csv}' due to domain-level skip.")
+            
+            return False
             
             return False
         
