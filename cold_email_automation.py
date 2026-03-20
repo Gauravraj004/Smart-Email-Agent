@@ -1460,13 +1460,43 @@ class ColdEmailAutomation:
         prospect_domain = self._get_domain(email)
         if prospect_domain and prospect_domain not in self.GENERIC_DOMAINS and prospect_domain in self.archived_domains:
             print(f"  🏢 Skipping {email} — domain '@{prospect_domain}' already replied.")
-            # Archive this contact so they are also removed from CSV
+            
+            # Archive/remove this contact so they are also removed from CSV
             tracking_key = email
+            source_csv = str(row.get('_source_csv', ''))
+            
             if tracking_key in self.tracking_db:
                 try:
                     self.archive_prospect(tracking_key, reason='domain_replied')
-                except Exception:
-                    pass
+                except Exception as e:
+                    print(f"  ⚠️ Failed to archive prospect {email} after domain-level skip: {e}")
+            else:
+                # Prospect was never tracked; remove directly from its source CSV if possible
+                if source_csv:
+                    try:
+                        csv_path = source_csv if not os.path.isdir(self.excel_file) else os.path.join(self.excel_file, source_csv)
+                        df = pd.read_csv(csv_path)
+                        # Find the correct email column (handle variations)
+                        email_col = next((col for col in df.columns if 'email' in col.lower() or 'mail' in col.lower()), None)
+                        
+                        if email_col:
+                            before_count = len(df)
+                            
+                            def contains_email(cell_value):
+                                if pd.isna(cell_value):
+                                    return False
+                                cell_lower = str(cell_value).lower()
+                                email_lower = tracking_key.lower()
+                                return cell_lower == email_lower or email_lower in cell_lower
+                                
+                            df = df[~df[email_col].apply(contains_email)]
+                            
+                            if len(df) != before_count:
+                                df.to_csv(csv_path, index=False)
+                                print(f"  Removed untracked prospect {email} from CSV '{source_csv}' due to domain-level skip.")
+                    except Exception as e:
+                        print(f"  ⚠️ Failed to remove untracked prospect {email} from CSV '{source_csv}': {e}")
+            
             return False
         
         # Get tracking data for this prospect

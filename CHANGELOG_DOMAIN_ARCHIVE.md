@@ -10,7 +10,7 @@ This contribution adds a **domain-level archiving** feature: as soon as a reply 
 
 ## Files Changed
 
-### [`cold_email_automation.py`](file:///d:/Smart-Email-Agent/cold_email_automation.py)
+### [`cold_email_automation.py`]
 
 This is the only file that was modified. Below are all changes in logical order.
 

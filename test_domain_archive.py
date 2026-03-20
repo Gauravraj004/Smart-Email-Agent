@@ -45,8 +45,13 @@ gmail_service_patch = patch(
     return_value=mock_gmail_service
 )
 
+import atexit
+
 google_creds_patch.start()
 gmail_service_patch.start()
+
+atexit.register(google_creds_patch.stop)
+atexit.register(gmail_service_patch.stop)
 
 from cold_email_automation import ColdEmailAutomation  # noqa: E402
 
@@ -60,7 +65,7 @@ def make_automation(tmp_dir: str, prospects: list) -> ColdEmailAutomation:
     os.makedirs(os.path.dirname(csv_path), exist_ok=True)
     pd.DataFrame(prospects).to_csv(csv_path, index=False)
 
-    # Patch load_prospects so we control data
+    # Manually construct automation instance and inject controlled prospects/state
     auto = ColdEmailAutomation.__new__(ColdEmailAutomation)
     auto.service = mock_gmail_service
     auto.authenticated_email = 'sender@gmail.com'
