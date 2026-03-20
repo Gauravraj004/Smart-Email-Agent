@@ -1463,7 +1463,9 @@ class ColdEmailAutomation:
             
             # Archive/remove this contact so they are also removed from CSV
             tracking_key = email
-            source_csv = str(row.get('_source_csv', ''))
+            source_csv = str(row.get('_source_csv', '')).strip()
+            if source_csv.lower() in ('nan', 'none', ''):
+                source_csv = None
             
             if tracking_key in self.tracking_db:
                 try:
@@ -1478,7 +1480,6 @@ class ColdEmailAutomation:
             
             return False
             
-            return False
         
         # Get tracking data for this prospect
         tracking_key = email
