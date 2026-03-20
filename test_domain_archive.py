@@ -45,8 +45,13 @@ gmail_service_patch = patch(
     return_value=mock_gmail_service
 )
 
+import atexit
+
 google_creds_patch.start()
 gmail_service_patch.start()
+
+atexit.register(google_creds_patch.stop)
+atexit.register(gmail_service_patch.stop)
 
 from cold_email_automation import ColdEmailAutomation  # noqa: E402
 
@@ -60,7 +65,7 @@ def make_automation(tmp_dir: str, prospects: list) -> ColdEmailAutomation:
     os.makedirs(os.path.dirname(csv_path), exist_ok=True)
     pd.DataFrame(prospects).to_csv(csv_path, index=False)
 
-    # Patch load_prospects so we control data
+    # Manually construct automation instance and inject controlled prospects/state
     auto = ColdEmailAutomation.__new__(ColdEmailAutomation)
     auto.service = mock_gmail_service
     auto.authenticated_email = 'sender@gmail.com'
@@ -287,6 +292,36 @@ def test_archived_domains_persists_across_instances(tmp):
     assert 'startup.com' in auto2.archived_domains, \
         "Second instance should load 'startup.com' from persisted JSON"
 
+def test_process_prospect_removes_untracked_from_csv(tmp):
+    """If a domain is archived, untracked prospects should be removed from CSV immediately."""
+    prospect_email = 'new_guy@startup.com'
+    prospects = [
+        {'company_name': 'Startup', 'first_name': 'NewGuy', 'email': prospect_email},
+    ]
+    auto = make_automation(tmp, prospects)
+    
+    # Pre-condition: CSV has the prospect
+    csv_path = os.path.join(auto.excel_file, '1.csv')
+    df_initial = pd.read_csv(csv_path)
+    assert prospect_email in df_initial['email'].values
+    
+    # 1. Archive the domain
+    auto.archived_domains.add('startup.com')
+    
+    # 2. Tracking DB is empty (prospect never emailed)
+    assert prospect_email not in auto.tracking_db
+    
+    # 3. Process prospect (should hit early-exit and remove from CSV)
+    row = auto.prospects.iloc[0]
+    row['_source_csv'] = '1.csv'  # Ensure source_csv is set
+    result = auto.process_prospect(row, create_draft_only=True)
+    
+    # 4. Verify
+    assert result is False
+    df_final = pd.read_csv(csv_path)
+    assert prospect_email not in df_final['email'].values, \
+        "Untracked prospect should have been removed from CSV due to domain skip"
+
 
 # ---------------------------------------------------------------------------
 # Run all tests
@@ -302,8 +337,8 @@ TESTS = [
     ('archive_domain: skips generic domains (gmail.com)', test_archive_domain_skips_generic),
     ('archive_domain: does not archive replier twice',    test_archive_domain_does_not_archive_replier_twice),
     ('archive_domain: idempotent (double call)',          test_archive_domain_idempotent),
-    ('process_prospect: skips archived domain',          test_process_prospect_skips_archived_domain),
     ('process_prospect: allows generic domain through',  test_process_prospect_allows_generic_domain),
+    ('process_prospect: removes untracked from CSV',     test_process_prospect_removes_untracked_from_csv),
     ('archived_domains: persists across instances',       test_archived_domains_persists_across_instances),
 ]
 

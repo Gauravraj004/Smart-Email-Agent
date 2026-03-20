@@ -1460,14 +1460,26 @@ class ColdEmailAutomation:
         prospect_domain = self._get_domain(email)
         if prospect_domain and prospect_domain not in self.GENERIC_DOMAINS and prospect_domain in self.archived_domains:
             print(f"  🏢 Skipping {email} — domain '@{prospect_domain}' already replied.")
-            # Archive this contact so they are also removed from CSV
+            
+            # Archive/remove this contact so they are also removed from CSV
             tracking_key = email
+            source_csv = str(row.get('_source_csv', '')).strip()
+            if source_csv.lower() in ('nan', 'none', ''):
+                source_csv = None
+            
             if tracking_key in self.tracking_db:
                 try:
                     self.archive_prospect(tracking_key, reason='domain_replied')
-                except Exception:
-                    pass
+                except Exception as e:
+                    print(f"  ⚠️ Failed to archive prospect {email} after domain-level skip: {e}")
+            else:
+                # Prospect was never tracked; remove directly from its source CSV if possible
+                if source_csv:
+                    self._remove_from_csv(tracking_key, source_csv)
+                    print(f"  Removed untracked prospect {email} from CSV '{source_csv}' due to domain-level skip.")
+            
             return False
+            
         
         # Get tracking data for this prospect
         tracking_key = email
